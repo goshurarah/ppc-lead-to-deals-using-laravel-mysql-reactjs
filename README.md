@@ -1,0 +1,3 @@
+# PPC Leads To Deals 
+For the PPC Leads to Deals web platform, I was responsible for building the entire backend architecture using Laravel and MySQL. I developed robust API endpoints to manage property listings, user profiles, and premium subscription features. I also integrated a support ticket system, CRM functionality, and handled complex data such as property details, mortgage rates, and other real estate-specific attributes. My backend work ensured secure and efficient data management, allowing the React-based frontend to deliver a seamless user experience.
+![ppc_leads_to_deals](https://github.com/user-attachments/assets/c08683b2-27b9-48ff-b39f-a0983c5949d9)
