@@ -1,0 +1,885 @@
+.ppc_logo_navbar_dashboard {
+  margin-left: 5% !important;
+  width: 300px;
+  height: 63.92px;
+  margin-right: 10% !important;
+}
+
+.our_price_package {
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #3b50c8;
+  border-radius: 10px;
+  border-style: none;
+  border-color: #5869cb !important;
+  box-shadow: 2px 2px 0px 0px #5869cb;
+}
+
+.button_navbar {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0px;
+  color: #868686;
+  margin-top: 27px;
+  margin-bottom: 5px;
+}
+.button_navbar_para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  color: #868686;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.vl {
+  border: 1px solid #3b50c8;
+  height: 45px;
+}
+.price_total {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 70%;
+  padding-left: 10px;
+  color: #313131;
+  padding-top: 2px;
+}
+.profile_button {
+  border-radius: 70%;
+  width: 50px;
+  height: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0px;
+  color: none !important;
+  border-color: none !important;
+  border-style: none;
+}
+.profile_name_navbar {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #313131 !important;
+  padding-top: 15px !important;
+}
+.total_balance_detail_icon {
+  width: 20px;
+  height: 20px;
+}
+.main_div_seller_lead_market_nav {
+  width: 40%;
+  margin-right: 4%;
+
+}
+.seller_lead_para_market_nav {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #656565;
+}
+.market_button_nav {
+  width: 161px;
+  height: 31px;
+  left: 400px;
+  top: 61px;
+  text-align: start;
+  background: #af8e3e;
+  border-radius: 5px;
+  border-style: none;
+  border-color: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.firstletterpara {
+  color: #868686;
+  font-size: 0.875rem;
+  font-family: "Inter";
+  font-weight: 700;
+  padding-top: 15px;
+}
+@media only screen and (max-width: 2560px) {
+  .ppc_logo_navbar_dashboard {
+    margin-left: 5% !important;
+    width: 200px;
+    height: 63.92px;
+    margin-right: 27% !important;
+  }
+  .main_div_seller_lead_market_nav {
+    width: 30%;
+    margin-right: 4%;
+  }
+  .seller_lead_para_market_nav {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .market_button_nav {
+    width: 161px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #ffffff;
+  }
+  .our_price_package {
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .button_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    color: #868686;
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  .button_navbar_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    color: #868686;
+    width: 70%;
+    padding-left: 10px;
+  }
+
+  .vl {
+    border: 1px solid #3b50c8;
+    height: 45px;
+  }
+  .price_total {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 70%;
+    padding-left: 10px;
+    color: #313131;
+    padding-top: 2px;
+  }
+  .total_balance_detail_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .profile_button {
+    border-radius: 70%;
+    width: 50px;
+    height: 50px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0px;
+    color: none !important;
+    border-color: none !important;
+  }
+  .profile_name_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #313131 !important;
+    padding-top: 15px !important;
+  }
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 45% !important;
+  }
+}
+
+@media only screen and (max-width: 2450px) {
+  .ppc_logo_navbar_dashboard {
+    margin-left: 5% !important;
+    width: 200px;
+    height: 63.92px;
+    margin-right: 0% !important;
+  }
+  .main_div_seller_lead_market_nav {
+    width: 40%;
+    margin-right: 4%;
+  }
+  .seller_lead_para_market_nav {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: #656565;
+  }
+  .market_button_nav {
+    width: 161px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #ffffff;
+  }
+  .our_price_package {
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+  .total_balance_detail_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .button_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    color: #868686;
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  .button_navbar_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    color: #868686;
+    width: 70%;
+    padding-left: 10px;
+  }
+
+  .vl {
+    border: 1px solid #3b50c8;
+    height: 45px;
+  }
+  .price_total {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 70%;
+    padding-left: 10px;
+    color: #313131;
+    padding-top: 2px;
+  }
+  .profile_button {
+    border-radius: 70%;
+    width: 50px;
+    height: 50px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0px;
+    color: none !important;
+    border-color: none !important;
+  }
+  .profile_name_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #313131 !important;
+    padding-top: 15px !important;
+  }
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 40% !important;
+  }
+}
+@media only screen and (max-width: 1940px) {
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 35% !important;
+  }
+}
+@media only screen and (max-width: 1745px) {
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 23% !important;
+  }
+}
+
+@media only screen and (max-width: 1410px) {
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 19% !important;
+  }
+}
+@media only screen and (max-width: 1370px) {
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 14% !important;
+  }
+  .firstletterpara {
+    color: #868686;
+    font-size: 0.575rem;
+    font-family: "Inter";
+    font-weight: 700;
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 3% !important;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .navbar_main_div_ppc_dashboard {
+    margin-left: 2% !important;
+  }
+}
+
+@media only screen and (max-width: 1490px) {
+  .ppc_logo_navbar_dashboard {
+    margin-left: 5% !important;
+    width: 200px;
+    height: 63.92px;
+    margin-right: 25% !important;
+  }
+  .main_div_seller_lead_market_nav {
+    width: 39%;
+    margin-right: 0%;
+  }
+  .seller_lead_para_market_nav {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: #656565;
+  }
+  .market_button_nav {
+    width: 141px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #ffffff;
+  }
+  .our_price_package {
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+  .total_balance_detail_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .button_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+    color: #868686;
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  .button_navbar_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    color: #868686;
+    width: 70%;
+    padding-left: 10px;
+  }
+
+  .vl {
+    border: 1px solid #3b50c8;
+    height: 45px;
+  }
+  .price_total {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 70%;
+    padding-left: 10px;
+    color: #313131;
+    padding-top: 2px;
+  }
+  .profile_button {
+    border-radius: 70%;
+    width: 50px;
+    height: 50px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0px;
+    color: none !important;
+    border-color: none !important;
+  }
+  .profile_name_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #313131 !important;
+    padding-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 1365px) {
+  .ppc_logo_navbar_dashboard {
+    margin-left: 5% !important;
+    width: 130px;
+    height: 58.92px;
+    margin-right: 15% !important;
+  }
+  .main_div_seller_lead_market_nav {
+    width: 50%;
+    margin-right: 0%;
+  }
+  .seller_lead_para_market_nav {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: #656565;
+  }
+  .market_button_nav {
+    width: 139px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  .total_balance_detail_icon {
+    width: 15px;
+    height: 15px;
+  }
+  .our_price_package {
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .button_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0px;
+    color: #868686;
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  .button_navbar_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    color: #868686;
+    width: 70%;
+    padding-left: 10px;
+  }
+
+  .vl {
+    border: 1px solid #3b50c8;
+    height: 45px;
+  }
+  .price_total {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80%;
+    padding-left: 10px;
+    color: #313131;
+    padding-top: 2px;
+  }
+  .profile_button {
+    border-radius: 70%;
+    width: 35px;
+    height: 35px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 0px;
+    color: none !important;
+    border-color: none !important;
+  }
+  .profile_name_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+    color: #313131 !important;
+    padding-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 1158px) {
+  .ppc_logo_navbar_dashboard {
+    margin-left: 5% !important;
+    width: 130px;
+    height: 48.92px;
+    margin-right: 20%;
+  }
+  .main_div_seller_lead_market_nav {
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 0%;
+  }
+  .seller_lead_para_market_nav {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 10px;
+    color: #656565;
+  }
+  .market_button_nav {
+    margin-left: 10%;
+    margin-bottom: 1%;
+    width:  113px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  .our_price_package {
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .button_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0px;
+    color: #868686;
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  .button_navbar_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    color: #868686;
+    width: 70%;
+    padding-left: 10px;
+  }
+  .total_balance_detail_icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .vl {
+    border: 1px solid #3b50c8;
+    height: 45px;
+  }
+  .price_total {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80%;
+    padding-left: 10px;
+    color: #313131;
+    padding-top: 2px;
+  }
+  .profile_button {
+    border-radius: 70%;
+    width: 35px;
+    height: 35px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 0px;
+    color: none !important;
+    border-color: none !important;
+  }
+  .profile_name_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+    color: #313131 !important;
+    padding-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .ppc_logo_navbar_dashboard {
+    margin-left: 5% !important;
+    width: 130px;
+    height: 48.92px;
+    margin-right: 20%;
+  }
+  .main_div_seller_lead_market_nav {
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 0%;
+  }
+  .seller_lead_para_market_nav {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 10px;
+    color: #656565;
+  }
+  .market_button_nav {
+    margin-left: 10%;
+    margin-bottom: 1%;
+    width: 195px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  .our_price_package {
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .button_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0px;
+    color: #868686;
+    margin-top: 27px;
+    margin-bottom: 5px;
+  }
+  .button_navbar_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    color: #868686;
+    width: 70%;
+    padding-left: 10px;
+  }
+  .total_balance_detail_icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .vl {
+    border: 1px solid #3b50c8;
+    height: 45px;
+  }
+  .price_total {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 80%;
+    padding-left: 10px;
+    color: #313131;
+    padding-top: 2px;
+  }
+  .profile_button {
+    border-radius: 70%;
+    width: 35px;
+    height: 35px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 0px;
+    color: none !important;
+    border-color: none !important;
+  }
+  .profile_name_navbar {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+    color: #313131 !important;
+    padding-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main_div_seller_lead_market_nav {
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 0%;
+  }
+  .seller_lead_para_market_nav {
+    margin-left: 5%;
+    margin-top: 6%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: #656565;
+  }
+  .market_button_nav {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 165px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .main_div_seller_lead_market_nav {
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 0%;
+  }
+  .seller_lead_para_market_nav {
+    margin-left: 5%;
+    margin-top: 8%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px !important;
+    line-height: 15px;
+    color: #656565;
+  }
+  .market_button_nav {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 155px;
+    height: 31px;
+    left: 400px;
+    top: 61px;
+    text-align: start;
+    background: #af8e3e;
+    border-radius: 5px;
+    border-style: none;
+    border-color: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}

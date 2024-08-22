@@ -1,0 +1,393 @@
+.ppc_logo_navbar {
+    margin-left: 10%;
+    width: 225px;
+    height: 73.92px;
+    margin-right: 10%;
+  }
+  
+  .navbarsticky {
+    
+    z-index: 1000; /* Adjust the z-index as needed */
+    background-color: #FFFFFF;
+    
+  }
+  .link_navbar_a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    color: #3b50c8;
+  }
+  .navbar_main_div a{
+    text-decoration: none;
+  }
+  .navbar_main_div a:hover{
+    text-decoration: none;
+  }
+  .login_button_navbar {
+    width: 84px;
+    height: 44px;
+    left: 1319px;
+    top: 23px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #3B50C8;
+  }
+  .create_account_button{
+      font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 178px;
+  height: 44px;
+  color: #FFFFFF;
+  border: 1px solid #fafafb;
+  background: #3B50C8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .create_account_button:hover {
+    background: #0025f6 !important ;
+  }
+  @media only screen and (max-width: 2560px) {
+    .create_account_button{
+      font-size: 14px;
+  line-height: 15px;
+  
+    }
+  }
+  
+  @media only screen and (max-width: 2860px) {
+  .navbar_main_div{
+    margin: 0px 400px;
+  }
+  .navbar_main_div a{
+    text-decoration: none;
+  }
+  .navbar_main_div a:hover{
+    text-decoration: none;
+  }
+  }
+  @media only screen and (max-width: 2350px) {
+    .navbar_main_div{
+      margin: 0px 210px !important;
+    }
+    .navbar_main_div a{
+      text-decoration: none;
+    }
+    .navbar_main_div a:hover{
+      text-decoration: none;
+    }
+    }
+  @media only screen and (max-width: 2290px) {
+    .navbar_main_div{
+      margin: 0px 130px;
+    }
+    .navbar_main_div a{
+      text-decoration: none;
+    }
+    .navbar_main_div a:hover{
+      text-decoration: none;
+    }
+    }
+    @media only screen and (max-width: 1910px) {
+      .navbar_main_div{
+        margin: 0px 5px !important;
+      }
+      .navbar_main_div a{
+        text-decoration: none;
+      }
+      .navbar_main_div a:hover{
+        text-decoration: none;
+      }
+      }
+  
+    @media only screen and (max-width: 1560px) {
+      .navbar_main_div{
+        margin: 0px -35px !important;
+      }
+      .navbar_main_div a{
+        text-decoration: none;
+      }
+      .navbar_main_div a:hover{
+        text-decoration: none;
+      }
+      }
+  
+  
+      @media only screen and (max-width: 1300px) {
+        .navbar_main_div{
+          margin: 0px 2px !important;
+        }
+        .navbar_main_div a{
+          text-decoration: none;
+        }
+        .navbar_main_div a:hover{
+          text-decoration: none;
+        }
+        .ppc_logo_navbar {
+          margin-left: 5% !important;
+          width: 205px;
+          height: 63.92px;
+          margin-right: 2%;
+      }
+        }
+
+
+        @media only screen and (max-width: 1190px) {
+          .navbar_main_div{
+            margin: 0px 0px;
+          }
+          .navbar_main_div a{
+            text-decoration: none;
+          }
+          .navbar_main_div a:hover{
+            text-decoration: none;
+          }
+          .ppc_logo_navbar {
+            margin-left: 5%;
+            width: 155px;
+            height: 53.92px;
+            margin-right: 5%;
+        }
+          }
+
+          @media only screen and (max-width: 1110px) {
+            .navbar_main_div{
+              margin: 0px 5px !important;
+            }
+            .navbar_main_div a{
+              text-decoration: none;
+            }
+            .navbar_main_div a:hover{
+              text-decoration: none;
+            }
+            .ppc_logo_navbar {
+              margin-left: 1% !important;
+              width: 155px;
+              height: 53.92px;
+              margin-right: 2%;
+          }
+            }
+    
+
+            
+          @media only screen and (max-width: 1060px) {
+            .navbar_main_div{
+              margin: 0px 0px;
+            }
+            .navbar_main_div a{
+              text-decoration: none;
+            }
+            .navbar_main_div a:hover{
+              text-decoration: none;
+            }
+            .ppc_logo_navbar {
+              margin-left: 5%;
+              width: 155px;
+              height: 53.92px;
+              margin-right: 2%;
+          }
+          .login_button_navbar {
+            width: 64px;
+            height: 44px;
+            left: 1319px;
+            top: 23px;
+            background: #ffffff;
+            border: 1px solid #3b50c8;
+            border-radius: 10px;
+            font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 19px;
+          text-align: center;
+          
+          color: #3B50C8;
+          }
+          .create_account_button{
+              font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 19px;
+          text-align: center;
+          width: 128px;
+          height: 44px;
+          color: #FFFFFF;
+          border: 1px solid #fafafb;
+          background: #3B50C8;
+          border-radius: 10px;
+          box-shadow: 1px 1px 0px 0px #5869cb !important;
+          }
+            }
+  
+    @media only screen and (max-width: 768px) {
+      .link_navbar_a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 20px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      .navbar_main_div a{
+        text-decoration: none;
+      }
+      .navbar_main_div a:hover{
+        text-decoration: none;
+      }
+      
+      .login_button_navbar {
+        width: 54px;
+        height: 34px;
+      
+      
+        background: #ffffff;
+        border: 1px solid #3b50c8;
+        border-radius: 10px;
+        font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10px;
+      line-height: 12px;
+      text-align: center;
+      
+      color: #3B50C8;
+      }
+      .create_account_button{
+          font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 12px;
+      text-align: center;
+      width: 115px;
+      height: 34px;
+      color: #FFFFFF;
+      border: 1px solid #fafafb;
+      background: #3B50C8;
+      border-radius: 10px;
+      box-shadow: 1px 1px 0px 0px #5869cb !important;
+      }
+      
+      
+        }
+    @media only screen and (max-width: 426px) {
+      .link_navbar_a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        margin-top: 20px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      .navbar_main_div a{
+        text-decoration: none;
+      }
+      .navbar_main_div a:hover{
+        text-decoration: none;
+      }
+
+  .login_button_navbar {
+    width: 54px;
+    height: 34px;
+  
+  
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  
+  color: #3B50C8;
+  }
+  .create_account_button{
+      font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  width: 113px;
+  height: 34px;
+  color: #FFFFFF;
+  border: 1px solid #fafafb;
+  background: #3B50C8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  
+  
+    }
+  
+  
+    @media only screen and (max-width: 320px) {
+      .link_navbar_a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 6px;
+        margin-top: 20px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      .navbar_main_div a{
+        text-decoration: none;
+      }
+      .navbar_main_div a:hover{
+        text-decoration: none;
+      }
+  .login_button_navbar {
+    width: 54px;
+    height: 34px;
+  
+  
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  
+  color: #3B50C8;
+  }
+  .create_account_button{
+      font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  width: 113px;
+  height: 34px;
+  color: #FFFFFF;
+  border: 1px solid #fafafb;
+  background: #3B50C8;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  
+  
+    }

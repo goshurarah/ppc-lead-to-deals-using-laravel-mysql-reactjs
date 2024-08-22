@@ -1,0 +1,1636 @@
+.button-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+}
+
+.sticky-button {
+  margin-top: 20px;
+  display: block;
+}
+.create_token_button {
+  margin-top: 20px;
+  margin-left: 1px;
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #3b50c8;
+  border-radius: 15px;
+  box-shadow: 2px 2px 0px 0px #5869cb;
+}
+.vector_image {
+  width: 40px;
+  height: 40px;
+}
+.create_token_para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #ff8a00;
+}
+
+@media only screen and (max-width: 1440px) {
+  .button-container {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+  }
+
+  .sticky-button {
+    margin-top: 20px;
+    display: block;
+  }
+  .create_token_button {
+    margin-top: 20px;
+    margin-left: 1px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 15px;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+  .vector_image {
+    width: 30px;
+    height: 30px;
+  }
+  .create_token_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #ff8a00;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .button-container {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+  }
+
+  .sticky-button {
+    margin-top: 20px;
+    display: block;
+  }
+  .create_token_button {
+    margin-top: 20px;
+    margin-left: 7px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 15px;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+  .vector_image {
+    width: 27px;
+    height: 27px;
+  }
+  .create_token_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #ff8a00;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .create_token_button {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 15px;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+  .create_token_para {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .button-container {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+  }
+
+  .sticky-button {
+    margin-top: 20px;
+    display: block;
+  }
+  .create_token_button {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: block;
+    width: 54px;
+    height: 54px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 15px;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+
+  .vector_image {
+    width: 22px;
+    height: 22px;
+  }
+  .create_token_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #ff8a00;
+  }
+}
+
+.component-container {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  width: 402px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+  z-index: 2;
+}
+.ticket_open_image {
+  width: 8%;
+  height: 20px;
+  text-align: center;
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.header_of_ticket {
+  background: #3b50c8;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+}
+.para_ticket {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+  color: #ffffff;
+}
+.body_of_ticket {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.input_subject_style {
+  width: 70%;
+  height: 50px;
+  margin-left: 15%;
+  margin-top: 3%;
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+.input_subject_style:focus::placeholder {
+  color: transparent;
+}
+.input_para_style {
+  width: 70%;
+  height: 100px;
+  margin-left: 15%;
+  margin-top: 3%;
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #545454;
+}
+.input_para_style:focus::placeholder {
+  color: transparent;
+}
+.ticket_sumbit_button {
+  width: 40%;
+  height: 50px;
+  margin-left: 30%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  background: #3b50c8;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  /* identical to box height */
+
+  text-align: center;
+  border-color: none;
+  border-style: none;
+
+  color: #ffffff;
+}
+.parent {
+  width: 100%;
+  margin-left: 15%;
+  margin: auto;
+  padding: 0rem;
+  background: #ffffff;
+  margin-top: 3%;
+}
+.dropyourfile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  padding: 0%;
+  padding-top: 3%;
+  text-align: center;
+  color: #656565;
+}
+.maximum_para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+
+  color: #656565;
+}
+.file-upload {
+  text-align: center;
+  border: 1px dashed #5869cb;
+  border-radius: 10px;
+  padding: 0.1rem;
+  position: relative;
+  cursor: pointer;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 2%;
+}
+
+.file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1440px) {
+  .component-container {
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    width: 332px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+  }
+  .ticket_open_image {
+    width: 8%;
+    height: 17px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .header_of_ticket {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+  }
+  .para_ticket {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    color: #ffffff;
+  }
+  .body_of_ticket {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .input_subject_style {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .input_para_style {
+    width: 70%;
+    height: 70px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .ticket_sumbit_button {
+    width: 40%;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    /* identical to box height */
+
+    text-align: center;
+    border-color: none;
+    border-style: none;
+
+    color: #ffffff;
+  }
+  .parent {
+    width: 100%;
+    margin-left: 15%;
+    margin: auto;
+    padding: 0rem;
+    background: #ffffff;
+    margin-top: 3%;
+  }
+  .dropyourfile {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    padding: 0%;
+    padding-top: 3%;
+    text-align: center;
+    color: #656565;
+  }
+  .maximum_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #656565;
+  }
+  .file-upload {
+    text-align: center;
+    border: 1px dashed #5869cb;
+    border-radius: 10px;
+    padding: 0.1rem;
+    position: relative;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 2%;
+  }
+
+  .file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .component-container {
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    width: 262px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+  }
+  .ticket_open_image {
+    width: 8%;
+    height: 17px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .header_of_ticket {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+  }
+  .para_ticket {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 22px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    color: #ffffff;
+  }
+  .body_of_ticket {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .input_subject_style {
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .input_para_style {
+    width: 70%;
+    height: 60px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .ticket_sumbit_button {
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border-color: none;
+    border-style: none;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff;
+  }
+  .parent {
+    width: 100%;
+    margin-left: 15%;
+    margin: auto;
+    padding: 0rem;
+    background: #ffffff;
+    margin-top: 3%;
+  }
+  .dropyourfile {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    padding: 0%;
+    padding-top: 3%;
+    text-align: center;
+    color: #656565;
+  }
+  .maximum_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #656565;
+  }
+  .file-upload {
+    text-align: center;
+    border: 1px dashed #5869cb;
+    border-radius: 10px;
+    padding: 0.1rem;
+    position: relative;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 2%;
+  }
+
+  .file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .component-container {
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    width: 202px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+  }
+  .ticket_open_image {
+    width: 8%;
+    height: 17px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .header_of_ticket {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+  }
+  .para_ticket {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 22px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    color: #ffffff;
+  }
+  .body_of_ticket {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .input_subject_style {
+    width: 70%;
+    height: 25px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .input_para_style {
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .ticket_sumbit_button {
+    width: 40%;
+    height: 30px;
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border-color: none;
+    border-style: none;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff;
+  }
+  .parent {
+    width: 100%;
+    margin-left: 15%;
+    margin: auto;
+    padding: 0rem;
+    background: #ffffff;
+    margin-top: 3%;
+  }
+  .dropyourfile {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    padding: 0%;
+    padding-top: 3%;
+    text-align: center;
+    color: #656565;
+  }
+  .maximum_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #656565;
+  }
+  .file-upload {
+    text-align: center;
+    border: 1px dashed #5869cb;
+    border-radius: 10px;
+    padding: 0.1rem;
+    position: relative;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 2%;
+  }
+
+  .file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .component-container {
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
+    width: 132px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+  }
+  .ticket_open_image {
+    width: 20%;
+    height: 17px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .header_of_ticket {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+  }
+  .para_ticket {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5px;
+    line-height: 12px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    color: #ffffff;
+  }
+  .body_of_ticket {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .input_subject_style {
+    width: 70%;
+    height: 20px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .input_para_style {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 3%;
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .ticket_sumbit_button {
+    width: 40%;
+    height: 25px;
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border-color: none;
+    border-style: none;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff;
+  }
+  .parent {
+    width: 100%;
+    margin-left: 15%;
+    margin: auto;
+    padding: 0rem;
+    background: #ffffff;
+    margin-top: 3%;
+  }
+  .dropyourfile {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+
+    padding: 0%;
+    padding-top: 3%;
+    text-align: center;
+    color: #656565;
+  }
+  .maximum_para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 10px;
+
+    color: #656565;
+  }
+  .file-upload {
+    text-align: center;
+    border: 1px dashed #5869cb;
+    border-radius: 10px;
+    padding: 0.1rem;
+    position: relative;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 2%;
+  }
+
+  .file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+/* chat styling and responsiveness */
+
+.chat_main_container1 {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  width: 300px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.header_of_chat {
+  background: #3b50c8;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.rounded-div {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+.profile_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0;
+  color: #ffffff !important;
+}
+.heading_chat_hello {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 26px;
+  padding: 0;
+
+  text-align: start;
+  margin: 0;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.para_chat_head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+  padding: 0;
+  margin: 0;
+  text-align: start;
+
+  color: #ffffff;
+}
+.body_of_chat {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.chat_para_body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 20px;
+  padding-top: 40px;
+  text-align: center;
+  color: #545454;
+}
+.receive_chat_style {
+  width: 100%;
+  height: 83px;
+  background: #5869cb;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+.sent_chat_style {
+  width: 259px;
+  height: 83px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: 7%;
+}
+.main_enter_chat_div {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  width: 86%;
+  margin-left: 7%;
+  height: 36px;
+  background: #d9d9d9;
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.input_style_chat {
+  width: 97%;
+  margin-left: 3%;
+  height: 36px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  border-color: #d9d9d9;
+  border-style: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin-bottom: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #545454;
+}
+.icon_chat_send {
+  height: 22px;
+  margin-top: 7px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  /* margin: 0; */
+}
+
+@media only screen and (max-width: 1440px) {
+  .chat_main_container1 {
+    position: fixed;
+    bottom: 80px !important;
+    right: 100px;
+    width: 250px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header_of_chat {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .rounded-div {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+  }
+  .profile_name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0;
+    color: #ffffff !important;
+  }
+  .heading_chat_hello {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0;
+
+    text-align: start;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 15px;
+  }
+  .para_chat_head {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+    /* identical to box height */
+    padding: 0;
+    margin: 0;
+    text-align: start;
+
+    color: #ffffff;
+  }
+  .body_of_chat {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .chat_para_body {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: #545454;
+  }
+  .receive_chat_style {
+    width: 100%;
+    height: 73px;
+    background: #5869cb;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    margin-left: 12px;
+  }
+  .sent_chat_style {
+    width: 100%;
+    height: 73px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 7%;
+  }
+  .main_enter_chat_div {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 86%;
+    margin-left: 7%;
+    height: 36px;
+    background: #d9d9d9;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .input_style_chat {
+    width: 97%;
+    margin-left: 3%;
+    height: 36px;
+    background: #d9d9d9;
+    color: #545454;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    border-style: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-bottom: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .icon_chat_send {
+    height: 17px;
+    margin-top: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* margin: 0; */
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .chat_main_container1 {
+    position: fixed;
+    bottom: 80px !important;
+    right: 100px;
+    width: 220px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header_of_chat {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .rounded-div {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+  }
+  .profile_name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    padding: 0;
+    color: #ffffff !important;
+  }
+  .heading_chat_hello {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0;
+
+    text-align: start;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 15px;
+  }
+  .para_chat_head {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 22px;
+    /* identical to box height */
+    padding: 0;
+    margin: 0;
+    text-align: start;
+
+    color: #ffffff;
+  }
+  .body_of_chat {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .chat_para_body {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: #545454;
+  }
+  .receive_chat_style {
+    width: 100%;
+    height: 63px;
+    background: #5869cb;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    margin-left: 12px;
+  }
+  .sent_chat_style {
+    width: 100%;
+    height: 63px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 7%;
+  }
+  .main_enter_chat_div {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 86%;
+    margin-left: 7%;
+    height: 36px;
+    background: #d9d9d9;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .input_style_chat {
+    width: 97%;
+    margin-left: 3%;
+    height: 36px;
+    background: #d9d9d9;
+    color: #545454;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    border-style: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-bottom: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .icon_chat_send {
+    height: 14px;
+    margin-top: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* margin: 0; */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .chat_main_container1 {
+    position: fixed;
+    bottom: 80px !important;
+    right: 100px;
+    width: 200px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header_of_chat {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .rounded-div {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+  }
+  .profile_name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    padding: 0;
+    color: #ffffff !important;
+  }
+  .heading_chat_hello {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0;
+
+    text-align: start;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 15px;
+  }
+  .para_chat_head {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 22px;
+    /* identical to box height */
+    padding: 0;
+    margin: 0;
+    text-align: start;
+
+    color: #ffffff;
+  }
+  .body_of_chat {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .chat_para_body {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: #545454;
+  }
+  .receive_chat_style {
+    width: 100%;
+    height: 53px;
+    background: #5869cb;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    margin-left: 12px;
+  }
+  .sent_chat_style {
+    width: 100%;
+    height: 53px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 7%;
+  }
+  .main_enter_chat_div {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 86%;
+    margin-left: 7%;
+    height: 30px;
+    background: #d9d9d9;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .input_style_chat {
+    width: 97%;
+    margin-left: 3%;
+    height: 30px !important;
+    background: #d9d9d9;
+    color: #545454;
+    border-radius: 10px;
+    outline: none;
+    border-color: #d9d9d9;
+    border-style: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-bottom: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 17px;
+  }
+  .icon_chat_send {
+    height: 11px;
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* margin: 0; */
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .chat_main_container1 {
+    position: fixed;
+    bottom: 80px !important;
+    right: 100px;
+    width: 150px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header_of_chat {
+    background: #3b50c8;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .rounded-div {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+  }
+  .profile_name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    padding: 0;
+    color: #ffffff !important;
+  }
+  .heading_chat_hello {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0;
+
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    padding-top: 2px;
+  }
+  .para_chat_head {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 22px;
+    /* identical to box height */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .body_of_chat {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+  }
+  .chat_para_body {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 12px;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #545454;
+  }
+  .receive_chat_style {
+    width: 100%;
+    height: 53px;
+    background: #5869cb;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    margin-left: 0px !important;
+  }
+  .sent_chat_style {
+    width: 100%;
+    height: 53px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 1%;
+  }
+  .main_enter_chat_div {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 84%;
+    margin-left: 9%;
+    height: 30px;
+    background: #d9d9d9;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .input_style_chat {
+    width: 100%;
+    margin-left: 3%;
+    height: 30px !important;
+    background: #d9d9d9;
+    color: #545454;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    border-style: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    outline: none;
+    margin-bottom: 2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 17px;
+  }
+  .icon_chat_send {
+    height: 11px;
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /* margin: 0; */
+  }
+}

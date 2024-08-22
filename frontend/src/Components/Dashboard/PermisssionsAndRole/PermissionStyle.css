@@ -1,0 +1,1073 @@
+.main_div_saved_roles {
+  margin-left: 5%;
+  width: 95%;
+  height: 100px;
+}
+
+.saved_role_para {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.row_role {
+  display: flex;
+  flex-direction: row;
+}
+
+.add_new_role_div_green {
+  width: 194px;
+  height: 44px;
+  border-radius: 10px;
+  background: #3cbc00;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-style: none;
+  border-color: #3cbc00;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.added_new_role_div_blue {
+  width: 194px !important;
+  height: 44px !important;
+  border-radius: 10px !important;
+  border: 1px solid #3b50c8 !important;
+  background: #fff !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+  color: #3b50c8 !important;
+  text-align: center !important;
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+
+  cursor: pointer !important;
+  margin-bottom: 10px !important;
+}
+.clicked_added_new_role_div_blue {
+  width: 194px !important;
+  height: 44px !important;
+  border-radius: 10px !important;
+  border: 1px solid #3b50c8 !important;
+  background: #3b50c8 !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+
+  cursor: pointer !important;
+  margin-bottom: 10px !important;
+}
+
+/* ... other styles ... */
+
+.add_new_roles_main_div {
+  width: 95%; /* Adjusted width to 100% */
+  overflow: hidden;
+}
+
+.scroll-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.scroll-container {
+}
+.scroll-container::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #d9d9d9;
+  background: #d9d9d9;
+  border-radius: 35px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #3b50c8;
+  outline: 1px solid #d9d9d9;
+  border-radius: 35px;
+}
+
+.main_div_permision_handle_box {
+  width: 50%;
+  height: 363px;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+  background: #fff;
+}
+.header_main_div {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid #3b50c8;
+  background: #3b50c8;
+}
+.header_para_permisssion_box {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 10px;
+}
+.header1_para_permisssion_box {
+  color: #fff;
+  text-align: start;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 10px;
+}
+.vlpermisssions {
+  border-left: 6px solid #868686;
+  height: 10px;
+  margin-top: 10px;
+}
+.para_inside_permisssion_box {
+  color: #3b50c8;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 22px !important;
+}
+
+.toggle_btn_permission {
+  cursor: pointer !important;
+  text-indent: -9999px !important;
+  width: 40px !important;
+  height: 20px !important;
+  background: #d9d9d9 !important;
+  display: block !important;
+  border-radius: 100px !important;
+  position: relative !important;
+  margin-top: 22px !important;
+}
+
+.toggle_btn_permission:after {
+  content: "" !important;
+  position: absolute !important;
+  top: 1px !important;
+  left: 1px !important;
+  width: 17px !important;
+  height: 17px !important;
+  background: #868686 !important;
+  border-radius: 90px !important;
+  transition: 0.4s !important;
+}
+
+input:checked + .toggle_btn_permission:after {
+  background: #3cbc00 !important;
+}
+
+input:checked + .toggle_btn_permission:after {
+  left: calc(100% - 1px) !important;
+  transform: translateX(-100%) !important;
+}
+
+.toggle_btn_permission:active:after {
+  width: 100px !important;
+}
+
+.modal_title_role_added {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+  margin: 10px;
+}
+.role_name_input_field {
+  border-radius: 10px;
+  border: 1px solid #5869cb;
+  background: #fff;
+  width: 100%;
+  height: 60px;
+  padding-left: 10px;
+  outline: none;
+  color: #656565;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.description_input_field {
+  margin-top: 20px;
+  width: 100%;
+  height: 209px;
+  border-radius: 10px;
+  border: 1px solid #5869cb;
+  background: #fff;
+  outline: none;
+  color: #656565;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.cancal_button_role_permisssion {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #3b50c8;
+  background: #fff;
+  color: #656565;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.save_button_role_permisssion {
+  width: 194px;
+  height: 60px;
+  border-radius: 10px;
+  background: #3b50c8;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-color: none;
+  border-style: none;
+  margin-left: 18%;
+}
+
+@media only screen and (max-width: 1370px) {
+  .main_div_saved_roles {
+    margin-left: 5%;
+    width: 95%;
+    height: 100px;
+  }
+
+  .saved_role_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .row_role {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .add_new_role_div_green {
+    height: 44px;
+    border-radius: 10px;
+    background: #3cbc00;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+
+  .added_new_role_div_blue {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #3b50c8;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .clicked_added_new_role_div_blue {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #3b50c8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+
+  /* ... other styles ... */
+
+  .add_new_roles_main_div {
+    width: 95%; /* Adjusted width to 100% */
+    overflow: hidden;
+  }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .scroll-container {
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 35px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #3b50c8;
+    outline: 1px solid #d9d9d9;
+    border-radius: 35px;
+  }
+
+  .main_div_permision_handle_box {
+    width: 50%;
+    height: 363px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+  }
+  .header_main_div {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #3b50c8;
+    background: #3b50c8;
+  }
+  .header_para_permisssion_box {
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .header1_para_permisssion_box {
+    color: #fff;
+    text-align: start;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .vlpermisssions {
+    border-left: 6px solid #868686;
+    height: 290px;
+    margin-top: 10px;
+  }
+  .para_inside_permisssion_box {
+    color: #3b50c8;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 22px !important;
+  }
+
+  .toggle_btn_permission {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 30px !important;
+    height: 15px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 22px !important;
+  }
+
+  .toggle_btn_permission:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 13px !important;
+    height: 13px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .toggle_btn_permission:after {
+    background: #3cbc00 !important;
+  }
+
+  input:checked + .toggle_btn_permission:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .toggle_btn_permission:active:after {
+    width: 100px !important;
+  }
+
+  .modal_title_role_added {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    margin: 10px;
+  }
+  .role_name_input_field {
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    padding-left: 10px;
+    outline: none;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .description_input_field {
+    margin-top: 20px;
+    width: 100%;
+    height: 209px;
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    outline: none;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .cancal_button_role_permisssion {
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+    color: #656565;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .save_button_role_permisssion {
+    width: 194px;
+    height: 60px;
+    border-radius: 10px;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-color: none;
+    border-style: none;
+    margin-left: 18%;
+  }
+}
+@media only screen and (max-width: 1213px) {
+  .main_div_saved_roles {
+    margin-left: 5%;
+    width: 95%;
+    height: 100px;
+  }
+
+  .saved_role_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .row_role {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .add_new_role_div_green {
+    height: 44px;
+    border-radius: 10px;
+    background: #3cbc00;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+
+  .added_new_role_div_blue {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #3b50c8;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+  .clicked_added_new_role_div_blue {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #3b50c8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+
+  /* ... other styles ... */
+
+  .add_new_roles_main_div {
+    width: 95%; /* Adjusted width to 100% */
+    overflow: hidden;
+  }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .scroll-container {
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 35px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #3b50c8;
+    outline: 1px solid #d9d9d9;
+    border-radius: 35px;
+  }
+
+  .main_div_permision_handle_box {
+    width: 50%;
+    height: 363px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+  }
+  .header_main_div {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #3b50c8;
+    background: #3b50c8;
+  }
+  .header_para_permisssion_box {
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .header1_para_permisssion_box {
+    color: #fff;
+    text-align: start;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .vlpermisssions {
+    border-left: 6px solid #868686;
+    height: 290px;
+    margin-top: 10px;
+  }
+  .para_inside_permisssion_box {
+    color: #3b50c8;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 22px !important;
+  }
+
+  .toggle_btn_permission {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 25px !important;
+    height: 12px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 22px !important;
+  }
+
+  .toggle_btn_permission:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 10px !important;
+    height: 10px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .toggle_btn_permission:after {
+    background: #3cbc00 !important;
+  }
+
+  input:checked + .toggle_btn_permission:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .toggle_btn_permission:active:after {
+    width: 100px !important;
+  }
+
+  .modal_title_role_added {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    margin: 10px;
+  }
+  .role_name_input_field {
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    padding-left: 10px;
+    outline: none;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .description_input_field {
+    margin-top: 20px;
+    width: 100%;
+    height: 209px;
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    outline: none;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .cancal_button_role_permisssion {
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+    color: #656565;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .save_button_role_permisssion {
+    width: 194px;
+    height: 60px;
+    border-radius: 10px;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-color: none;
+    border-style: none;
+    margin-left: 18%;
+  }
+}
+@media only screen and (max-width: 1072px) {
+  .main_div_saved_roles {
+    margin-left: 5%;
+    width: 95%;
+    height: 100px;
+  }
+
+  .saved_role_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .row_role {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .add_new_role_div_green {
+    height: 44px;
+    border-radius: 10px;
+    background: #3cbc00;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+
+  .added_new_role_div_blue {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #3b50c8;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+  .clicked_added_new_role_div_blue {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #3b50c8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    cursor: pointer;
+  }
+
+  /* ... other styles ... */
+
+  .add_new_roles_main_div {
+    width: 95%; /* Adjusted width to 100% */
+    overflow: hidden;
+  }
+
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .scroll-container {
+  }
+  .scroll-container::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 35px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #3b50c8;
+    outline: 1px solid #d9d9d9;
+    border-radius: 35px;
+  }
+
+  .main_div_permision_handle_box {
+    width: 50%;
+    height: 363px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+  }
+  .header_main_div {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #3b50c8;
+    background: #3b50c8;
+  }
+  .header_para_permisssion_box {
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .header1_para_permisssion_box {
+    color: #fff;
+    text-align: start;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .vlpermisssions {
+    border-left: 6px solid #868686;
+    height: 290px;
+    margin-top: 10px;
+  }
+  .para_inside_permisssion_box {
+    color: #3b50c8;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 22px !important;
+  }
+
+  .toggle_btn_permission {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 22px !important;
+  }
+
+  .toggle_btn_permission:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .toggle_btn_permission:after {
+    background: #3cbc00 !important;
+  }
+
+  input:checked + .toggle_btn_permission:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .toggle_btn_permission:active:after {
+    width: 100px !important;
+  }
+
+  .modal_title_role_added {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    margin: 10px;
+  }
+  .role_name_input_field {
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    padding-left: 10px;
+    outline: none;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .description_input_field {
+    margin-top: 20px;
+    width: 100%;
+    height: 209px;
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    outline: none;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .cancal_button_role_permisssion {
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #3b50c8;
+    background: #fff;
+    color: #656565;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .save_button_role_permisssion {
+    width: 194px;
+    height: 60px;
+    border-radius: 10px;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    border-color: none;
+    border-style: none;
+    margin-left: 18%;
+  }
+}

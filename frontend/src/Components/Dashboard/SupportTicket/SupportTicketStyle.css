@@ -1,0 +1,2941 @@
+.main_div_st_heading {
+  width: 90% !important;
+  height: 65px;
+  background: #5869cb;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  margin-left: 5% !important;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.support_ticket_accordian {
+  color: #444 !important;
+  cursor: pointer;
+  padding: 18px;
+  width: 90% !important;
+  margin-top: 1%;
+  margin-left: 5% !important;
+  height: 75px;
+  background: #ffffff !important;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 0px;
+  transition: 0.4s;
+  border-color: none !important;
+  border-style: none !important;
+  overflow: hidden;
+}
+.activest,
+.support_ticket_accordian:hover {
+  background: #ffffff !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c3c3c !important;
+}
+.activest,
+.support_ticket_accordian {
+  background: #ffffff !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c3c3c !important;
+}
+.panelst {
+  padding: 0 18px;
+  width: 90% !important;
+  margin-left: 5% !important;
+  background-color: white;
+  overflow: hidden;
+  text-align: justify;
+  border-radius: 10px;
+  height: fit-content !important;
+  overflow: hidden;
+}
+
+.accordian_st_first_heading_1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  padding-top: 5px;
+  overflow: hidden;
+}
+.accordian_st_timing_1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  padding-top: 0px;
+  overflow: hidden;
+}
+.more_detail_st {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 17px;
+
+  text-decoration-line: underline;
+}
+
+/* pagination.css */
+.pagination_main_div_st {
+  margin-left: 35%;
+  margin-top: 3%;
+}
+.page-item {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.page-link {
+  padding: 6px 12px;
+  border-radius: 5px;
+  background: #cccccc;
+  box-shadow: 2px 2px 0px 0px #5869cb !important;
+  color: #ffffff;
+}
+.page-item:active {
+  background: #3b50c8;
+}
+.page-link:hover {
+  background-color: #f5f5f5;
+}
+
+.main_search_div {
+  padding: 0%;
+  margin: 0%;
+  margin-left: 4%;
+  width: 90%;
+  margin-bottom: 2%;
+}
+.search_entity {
+  width: 105%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+
+  background: #ffffff;
+  border: 1px solid #868686;
+  border-radius: 10px;
+}
+.clear_button_search_st {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  border-color: none;
+  color: #ffffff;
+  border-style: none;
+  width: 118px;
+  height: 60px;
+  background: #3b50c8;
+  border-radius: 10px;
+  margin-top: 0px !important;
+  margin-left: 35%;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+}
+.search_icon_st {
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.input_serachentity_st {
+  width: 55%;
+  outline: none !important;
+  border: none !important;
+  border-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: start;
+  margin-top: 18px;
+  margin-left: 10px;
+  color: #868686;
+}
+.vertical_line_st {
+  width: 5% !important;
+  border-left: 1px solid #868686 !important;
+  height: 20px !important;
+}
+.target_entity_dropdown_style {
+  outline: none !important;
+  border: none !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  color: #cccccc !important;
+  width: 12%;
+}
+.search_st_icon_style {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.download_div_main{
+  width: 272px;
+height: 44px;
+border-radius: 10px;
+background: #5869CB;
+margin-left: 1px;
+}
+.download_picture_style{
+  margin-top: 12px;
+}
+.download_picture_style1{
+  margin-top: 15px;
+}
+.file_name_download{
+  color: #FFF;
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 12px;
+}
+@media only screen and (max-width: 2500px) {
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 65px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .support_ticket_accordian {
+    color: #444 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 90% !important;
+    margin-top: 1%;
+    margin-left: 5% !important;
+    height: 75px;
+    background: #ffffff !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 0px;
+    transition: 0.4s;
+    border-color: none !important;
+    border-style: none !important;
+    overflow: hidden;
+  }
+  .activest,
+  .support_ticket_accordian:hover {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .activest,
+  .support_ticket_accordian {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .panelst {
+    padding: 0 18px;
+    width: 90% !important;
+    margin-left: 5% !important;
+    background-color: white;
+    overflow: hidden;
+    text-align: justify;
+    border-radius: 10px;
+    height: fit-content !important;
+    overflow: hidden;
+  }
+
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .more_detail_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 17px;
+
+    text-decoration-line: underline;
+  }
+
+  /* pagination.css */
+  .pagination_main_div_st {
+    margin-left: 35%;
+    margin-top: 3%;
+  }
+  .page-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .page-link {
+    padding: 6px 12px;
+    border-radius: 5px;
+    background: #cccccc;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #ffffff;
+  }
+  .page-item:active {
+    background: #3b50c8;
+  }
+  .page-link:hover {
+    background-color: #f5f5f5;
+  }
+
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 105%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 60px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 0px !important;
+    margin-left: 45%;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .search_icon_st {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 55%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+  .vertical_line_st {
+    width: 5% !important;
+    border-left: 1px solid #868686 !important;
+    height: 20px !important;
+  }
+  .target_entity_dropdown_style {
+    outline: none !important;
+    border: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #cccccc !important;
+    width: 12%;
+  }
+  .search_st_icon_style {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+@media only screen and (max-width: 1454px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 92%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 60px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 0px !important;
+    margin-left: 1%;
+  }
+  .search_icon_st {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 40%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 1130px){
+  .search_entity {
+    width: 100%;
+    height: 120px;}
+}
+@media only screen and (max-width: 1024px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 60px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 0px !important;
+    margin-left: 1%;
+  }
+  .search_icon_st {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 40%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 65px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 60px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 30%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 14%;
+  }
+  .download_div_main{
+    width: 202px;
+  height: 44px;
+  border-radius: 10px;
+  background: #5869CB;
+  margin-left: 1px;
+  }
+  .download_picture_style{
+    margin-top: 12px;
+  }
+  .download_picture_style1{
+    margin-top: 15px;;
+  }
+  .file_name_download{
+    color: #FFF;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+ 
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 44px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 30%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 14%;
+  }
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 65px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 606px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 44px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 69%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 28%;
+    margin-top: 10px;
+    margin-left: 10px !important;
+  }
+  .search_st_icon_style {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 0px;
+    margin-left: 10px !important;
+  }
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 65px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .download_div_main{
+    width: 202px;
+  height: 44px;
+  border-radius: 10px;
+  background: #5869CB;
+  margin-left: 1px;
+  }
+  .download_picture_style{
+    margin-top: 12px;
+  }
+  .download_picture_style1{
+    margin-top: 15px;;
+  }
+  .file_name_download{
+    color: #FFF;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+ 
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 44px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 69%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 28%;
+    margin-top: 10px;
+    margin-left: 10px !important;
+  }
+  .search_st_icon_style {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 0px;
+    margin-left: 10px !important;
+  }
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 205px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .support_ticket_accordian {
+    color: #444 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 90% !important;
+    margin-top: 1%;
+    margin-left: 5% !important;
+    height: 355px;
+    background: #ffffff !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 0px;
+    transition: 0.4s;
+    border-color: none !important;
+    border-style: none !important;
+    overflow: hidden;
+  }
+  .activest,
+  .support_ticket_accordian:hover {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .activest,
+  .support_ticket_accordian {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 44px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 69%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 28%;
+    margin-top: 10px;
+    margin-left: 10px !important;
+  }
+  .search_st_icon_style {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 0px;
+    margin-left: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 44px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 69%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 35%;
+    margin-top: 10px;
+  }
+  .search_st_icon_style {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 0px;
+    margin-left: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .main_search_div {
+    padding: 0%;
+    margin: 0%;
+    margin-left: 4%;
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  .search_entity {
+    width: 100%;
+    height: 180px !important;
+    padding: 0;
+    margin: 0;
+
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .clear_button_search_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    text-align: center;
+    border-color: none;
+    color: #ffffff;
+    border-style: none;
+    width: 118px;
+    height: 60px;
+    background: #3b50c8;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  .search_icon_st {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .input_serachentity_st {
+    width: 59%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #868686;
+  }
+
+  .target_entity_dropdown_style {
+    width: 35%;
+    margin-top: 10px;
+  }
+  .search_st_icon_style {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 0px;
+    margin-left: 10px !important;
+  }
+}
+
+/* inside message css */
+
+.main_message_div {
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.main_message_div::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+.main_message_div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.main_message_div::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.incoming_message_div {
+  margin-top: 2%;
+  width: 98%;
+  height: auto !important;
+  margin-left: 1%;
+  background: #f5f5f5;
+  border-radius: 10px;
+  margin-bottom: 2%;
+ padding-bottom: 2%;
+}
+.outgoing_message_div {
+  margin-top: 2%;
+  width: 98%;
+  height: auto;
+  margin-left: 1%;
+  background: #dbe0ff;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+.name_upcoming_person {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 15px;
+  color: #5869cb;
+}
+.div_upcoming_message {
+  width: 70%;
+  height: auto;
+  overflow: hidden; 
+}
+.show_butoon_for_download{
+  width: 30%;
+}
+.show_button_icon{
+  width: 30px;
+  height: 10px;
+  color: green;
+  background-color: #3b50c8;
+}
+.message_upcoming {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 2% !important;
+  color: #878787;
+  word-wrap: break-word;
+  /* white-space: pre-wrap; */
+}
+.subject_input_div {
+  width: 96%;
+  margin-left: 4%;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #868686;
+  border-radius: 10px;
+}
+.input_field_subject {
+  margin-top: 9%;
+  outline: none !important;
+  border: none !important;
+  border-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #868686;
+  text-align: start;
+  margin-left: 5px;
+}
+.message_input_div {
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #868686;
+  border-radius: 10px;
+  margin-left: 10px !important;
+}
+
+.input_field_message {
+  margin-top: 3px;
+  width: 98%;
+  outline: none !important;
+  border: none !important;
+  border-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #868686;
+  text-align: start;
+  margin-left: 5px;
+  resize: none;
+  /* Allow vertical resizing of the text area */
+  height: 60px; /* Adjust the height based on line height and desired visible lines */
+  overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+}
+.input_field_message:focus::placeholder {
+  color: transparent;
+}
+.input_field_message::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.input_field_message::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.input_field_message::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.message_button_send {
+  width: 128px;
+  height: 44px;
+  margin-top: 8% !important;
+  margin-left: 23% !important;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  background: #3b50c8;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  border: none;
+  border-color: none;
+  border-style: none;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 2460px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+ 
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 10px !important;
+  }
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .input_field_message::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .input_field_message::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .input_field_message::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .message_button_send {
+    width: 128px;
+    height: 44px;
+    margin-top: 8% !important;
+    margin-left: 23% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 2560px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .input_field_message::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .input_field_message::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .input_field_message::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .message_button_send {
+    width: 121px;
+    height: 44px;
+    margin-top: 3% !important;
+    margin-left: 29%;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+    height: auto;
+    /* height: auto; */
+    /* border: 1px solid #ccc;
+    padding: 10px; */
+    overflow: hidden; 
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+    word-wrap: break-word;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .input_field_message::-webkit-scrollbar {
+    width: 0.4em;
+  }
+
+  .input_field_message::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .input_field_message::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .message_button_send {
+    width: 108px;
+    height: 44px;
+    margin-top: 10% !important;
+    margin-left: 5% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .message_button_send {
+    width: 95px;
+    height: 44px;
+    margin-top: 10% !important;
+    margin-left: 2% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+
+}
+@media only screen and (max-width: 1024px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 7px !important;
+    margin-top: 3%;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .message_button_send {
+    width: 78px;
+    height: 44px;
+    margin-top: 30% !important;
+    margin-left: 5% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 96%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 7px !important;
+    margin-top: 3%;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .message_button_send {
+    width: 108px;
+    height: 44px;
+    margin-top: 5% !important;
+    margin-left: 1% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .more_detail_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px !important;
+    line-height: 14px !important;
+
+    text-decoration-line: underline;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 96%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 7px !important;
+    margin-top: 3%;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .message_button_send {
+    width: 108px;
+    height: 44px;
+    margin-top: 5% !important;
+    margin-left: 1% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .more_detail_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px !important;
+    line-height: 14px !important;
+
+    text-decoration-line: underline;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 96%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 7px !important;
+    margin-top: 3%;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 98%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .message_button_send {
+    width: 108px;
+    height: 44px;
+    margin-top: 5% !important;
+    margin-left: 1% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 15px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .more_detail_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px !important;
+    line-height: 14px !important;
+
+    text-decoration-line: underline;
+  }
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 195px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .support_ticket_accordian {
+    color: #444 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 90% !important;
+    margin-top: 1%;
+    margin-left: 5% !important;
+    height: 325px;
+    background: #ffffff !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 0px;
+    transition: 0.4s;
+    border-color: none !important;
+    border-style: none !important;
+    overflow: hidden;
+  }
+  .activest,
+  .support_ticket_accordian:hover {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .activest,
+  .support_ticket_accordian {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .panelst {
+    padding: 0 18px;
+    width: 90% !important;
+    margin-left: 5% !important;
+    background-color: white;
+    overflow: hidden;
+    text-align: justify;
+    border-radius: 10px;
+    height: fit-content !important;
+    overflow: hidden;
+  }
+
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .more_detail_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 17px;
+
+    text-decoration-line: underline;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .main_message_div {
+    height: 400px;
+    overflow-y: scroll;
+  }
+
+  .main_message_div::-webkit-scrollbar {
+    width: 0.6em;
+  }
+
+  .main_message_div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .main_message_div::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+  .incoming_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  .outgoing_message_div {
+    margin-top: 2%;
+    width: 98%;
+    height: auto;
+    margin-left: 1%;
+    background: #dbe0ff;
+    border-radius: 10px;
+  }
+  .name_upcoming_person {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 15px;
+    color: #5869cb;
+  }
+  .div_upcoming_message {
+    width: 70%;
+  }
+  .message_upcoming {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 17px;
+    padding-bottom: 2% !important;
+    color: #878787;
+  }
+  .subject_input_div {
+    width: 96%;
+    margin-left: 4%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+  }
+  .input_field_subject {
+    margin-top: 9%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+  }
+  .message_input_div {
+    width: 96%;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin-left: 7px !important;
+    margin-top: 3%;
+  }
+
+  .input_field_message {
+    margin-top: 3px;
+    width: 100%;
+    outline: none !important;
+    border: none !important;
+    border-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #868686;
+    text-align: start;
+    margin-left: 5px;
+    resize: none;
+    /* Allow vertical resizing of the text area */
+    height: 60px; /* Adjust the height based on line height and desired visible lines */
+    overflow-y: auto; /* Add vertical scroll if content exceeds the height */
+  }
+  .message_button_send {
+    width: 108px;
+    height: 44px;
+    margin-top: 5% !important;
+    margin-left: 1% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    background: #3b50c8;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    border: none;
+    border-color: none;
+    border-style: none;
+    color: #ffffff;
+  }
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px !important;
+    line-height: 15px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .more_detail_st {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px !important;
+    line-height: 14px !important;
+
+    text-decoration-line: underline;
+  }
+  .main_div_st_heading {
+    width: 90% !important;
+    height: 195px;
+    background: #5869cb;
+    border-radius: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 5% !important;
+    color: #ffffff;
+    padding-top: 20px;
+  }
+  .support_ticket_accordian {
+    color: #444 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 90% !important;
+    margin-top: 1%;
+    margin-left: 5% !important;
+    height: 325px;
+    background: #ffffff !important;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 0px;
+    transition: 0.4s;
+    border-color: none !important;
+    border-style: none !important;
+    overflow: hidden;
+  }
+  .activest,
+  .support_ticket_accordian:hover {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .activest,
+  .support_ticket_accordian {
+    background: #ffffff !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3c3c3c !important;
+  }
+  .panelst {
+    padding: 0 18px;
+    width: 90% !important;
+    margin-left: 5% !important;
+    background-color: white;
+    overflow: hidden;
+    text-align: justify;
+    border-radius: 10px;
+    height: fit-content !important;
+    overflow: hidden;
+  }
+
+  .accordian_st_first_heading_1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  .accordian_st_timing_1 {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    padding-top: 0px !important;
+    overflow: hidden !important;
+  }
+  .more_detail_st {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 8px !important;
+    line-height: 17px !important;
+
+    text-decoration-line: underline !important;
+  }
+}
+
+/* upload file style */
+.uploadfileiconst {
+  margin-left: 14% !important;
+  cursor: pointer;
+  
+}
+.uploadfile_div {
+  width: 100% !important;
+  margin-left: 35% !important;
+  margin: auto !important;
+  padding: 0rem !important;
+  background: none !important;
+  margin-top: 10% !important;
+  text-decoration-line: underline !important;
+  color: #878787 !important;
+  font-size: 0.75rem !important;
+  font-family: "Inter" !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+}
+
+.uploadfile_div input {
+  display: block !important;
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  opacity: 0 !important;
+  cursor: pointer !important;
+  /* cursor: pointer; */
+  /* margin-left: 25% !important; */
+}
+@media only screen and (max-width: 2460px) {
+  .uploadfileiconst {
+    margin-left: 14% !important;
+  }
+  .uploadfile_div {
+    width: 100% !important;
+    margin-left: 35% !important;
+    margin: auto !important;
+    padding: 0rem !important;
+    background: none !important;
+    margin-top: 10% !important;
+    text-decoration-line: underline !important;
+    color: #878787 !important;
+    font-size: 0.75rem !important;
+    font-family: "Inter" !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+  }
+
+  .uploadfile_div input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    /* cursor: pointer; */
+    /* margin-left: 25% !important; */
+  }
+}
+@media only screen and (max-width: 2560px) {
+  .uploadfile_div {
+    margin-left: 45% !important;
+
+    margin-top: 6% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 6% !important;
+  }
+}
+@media only screen and (max-width: 1760px) {
+  .uploadfile_div {
+    margin-left: 25% !important;
+
+    margin-top: 9% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 10% !important;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .uploadfile_div {
+    margin-left: 10% !important;
+
+    margin-top: 10% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 18% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .uploadfile_div {
+    margin-left: 0% !important;
+    font-size: 0.53rem !important;
+    margin-top: 22% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 14% !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .uploadfile_div {
+    margin-left: 30% !important;
+    font-size: 0.53rem !important;
+    margin-top: 8% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 4% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .uploadfile_div {
+    margin-left: 30% !important;
+    font-size: 0.53rem !important;
+    margin-top: 9% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 4% !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .uploadfile_div {
+    margin-left: 30% !important;
+    font-size: 0.53rem !important;
+    margin-top: 16% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 8% !important;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .uploadfile_div {
+    margin-left: 20% !important;
+    font-size: 0.53rem !important;
+    margin-top: 16% !important;
+  }
+  .uploadfileiconst {
+    margin-left: 9% !important;
+  }
+}
+
+
+
+.dropbtnst {
+  background-color: white;
+  color: #cccccc ;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: relative; /* Add position relative */
+  z-index: 2; /* Lower z-index compared to dropdown */
+}
+
+.dropbtnst:hover, .dropbtnst:focus {
+  background-color: white;
+  color: #cccccc ;
+  z-index: 2;
+}
+
+#myInputst {
+  box-sizing: border-box;
+  background-position: 14px 17px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  z-index: 2;
+  background-image: url('./../../../Assets/search_icon.png');
+  background-size: 20px 20px;
+}
+
+#myInputst:focus {
+  outline: 3px solid #ddd;
+}
+
+.dropdownst {
+  position: relative;
+  display: inline-block;
+  z-index: 2; /* Higher z-index for dropdown container */
+}
+
+.dropdown-contentst {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1000; /* Higher z-index compared to other elements */
+  height: 300px;
+}
+
+.dropdown-contentst a {
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  z-index: 4; /* Higher z-index for dropdown items */
+  padding-left: 7%;
+}
+
+.dropdownst a:hover {
+  background-color: #ddd;
+}
+
+
+.showst {
+  display: block;
+}
+
+
+.cursor_pinter_add{
+  cursor: pointer;
+}

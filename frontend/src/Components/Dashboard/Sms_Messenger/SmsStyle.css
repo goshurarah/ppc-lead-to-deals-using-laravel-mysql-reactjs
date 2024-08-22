@@ -1,0 +1,2450 @@
+
+.mesg_sidebar_div{
+    width:  324px;
+height: 94px;
+border-radius: 10px;
+background: #FFF;
+margin-bottom: 3%;
+cursor: pointer;
+}
+.sidebar_message_main_div {
+    margin-left: 2.5%;
+    height: 700px;
+    width: 494px;
+
+  }
+  .main_div_sidebar_sms_messenger{
+    height: 700px;
+   
+    overflow-y: scroll;
+    margin-right: 0%;
+  }
+  .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+    width: 12px; /* Adjust the scrollbar width as needed */
+  }
+  
+  .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+    background: transparent; /* Track color */
+  }
+  
+  .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+    background: transparent; /* Thumb color */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  
+ 
+.search_div_sms{
+    width:  324px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #868686;
+background: #FFF;
+margin-bottom: 3%
+}
+.input_serach_sms{
+    outline: none;
+    border: none;
+    border-color: none;
+    margin-left: 3%;
+
+
+}
+.sms_icon_search{
+    width: 22px;
+height: 22px;
+margin-top: 6%;
+margin-left: 3%;
+}
+.round_div_sms_person_name{
+    width: 74px;
+height: 74px;
+flex-shrink: 0;
+background-color: #D9D9D9;
+color: #000;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 70%;
+border-color: none;
+border-style: none;
+margin-top: 14%;
+margin-left: 10%;
+}
+.messenger_person_name{
+    color: #5869CB;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 0;
+margin-top: 25%;
+}
+.messenger_person_desp{
+    color: #878787;
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.sms_time{
+    color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15%;
+    line-height: normal; 
+}
+.main_sms_div_show{
+    width: 95%;
+height: 738px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+margin-left: 0%;
+margin-bottom: 5%;
+}
+.mesg_sidebar_div_active{
+    background: #3B50C8;
+}
+.messenger_person_name_active{
+    color: #FFF;
+}
+.messenger_person_desp_active{
+    color: #FFF;
+}
+.sms_time_active{
+    color: #FFF;
+}
+
+.round_div_mesage_open{
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.main_div_name_desp_open{
+    margin-top: 5.3%;
+    margin-left: 2%;
+}
+.messenger_person_name_open{
+    color: #5869CB;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+
+}
+
+.messenger_person_desp_open{
+    color: #878787;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.profile_sms_main_div{
+    height: 120px;
+}
+.sms_message_show_main_div{
+    height: 500px;
+margin-bottom: 3%;
+overflow-y: scroll;
+margin-right: 1%;
+}
+
+.sms_message_show_main_div::-webkit-scrollbar {
+  width: 0.6em;
+  
+}
+
+.sms_message_show_main_div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.sms_message_show_main_div::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.input_style_sms_end{
+    border-radius: 10px;
+border: 1px solid #868686;
+background: #FFF;
+width: 77%;
+height: 70px;
+flex-shrink: 0;
+color: #424242;
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 5px;
+outline: none;
+margin-left: 3%;
+padding-right: 5px;
+}
+.button_sms_send_style{
+    width: 118px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #3B50C8;
+color: #FFF;
+text-align: center;
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+outline: none !important;
+margin-left: 2%;
+margin-top: 1.5%;
+border-color: #FFF;
+box-shadow: 2px 2px 0px 0px #3b50c8;
+border-style: none;
+
+}
+
+.receive_sms_messenger{
+    width: 70%;
+height: auto;
+border-radius: 10px 10px 10px 0px;
+background: #F5F5F5;
+margin-right: 3%;
+overflow: hidden;
+}
+.reseive_sms_name_header{
+    color: #5869CB;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 0;
+margin-left: 3%;
+margin-top: 3%;
+}
+.para_sms_receive{
+    color: #424242;
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 3%;
+margin-bottom: 3%;
+padding-right: 2%;
+}
+
+
+.send_sms_messenger{
+    width: 70%;
+    height: auto;
+    border-radius: 10px 10px 0px 10px;
+    background: #3B50C8;
+    margin-left: 3%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.send_sms_name_header{
+    color: #FFF;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 0;
+margin-top: 3%;
+margin-left: 3%;
+}
+.para_sms_send{
+    color: #FFF;
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 3%;
+padding-right: 2%;
+}
+
+
+
+@media only screen and (max-width: 2560px) {
+    .main_sms_div_show{
+  
+    height: 780px;
+    
+    }   
+}
+
+@media only screen and (max-width: 1860px) {
+    .main_sms_div_show{
+  
+    height: 758px;
+    
+    }   
+}
+
+@media only screen and (max-width: 1350px) {
+    .mesg_sidebar_div{
+        width:  270px;
+    height: 94px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 700px;
+        width:  290px;
+      }
+    .search_div_sms{
+        width:  260px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 3%;
+    
+    
+    }
+    .sms_icon_search{
+        width: 22px;
+    height: 22px;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 45%;
+    margin-left: 10%;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 35%;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 22%;
+        line-height: normal; 
+        margin-right: 5%;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 700px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 72%;
+    height: 70px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 118px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+    .mesg_sidebar_div{
+        width:  270px;
+    height: 94px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 700px;
+        width:  290px;
+      }
+    .search_div_sms{
+        width:  260px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 3%;
+    
+    
+    }
+    .sms_icon_search{
+        width: 22px;
+    height: 22px;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 45%;
+    margin-left: 10%;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 35%;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 22%;
+        line-height: normal; 
+        margin-right: 5%;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 700px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 65%;
+    height: 70px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 118px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .mesg_sidebar_div{
+        width:  270px;
+    height: 94px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 700px;
+        width:  290px;
+      }
+    .search_div_sms{
+        width:  260px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 3%;
+    
+    
+    }
+    .round_div_mesage_open{
+        width: 74px;
+        height: 74px;
+        flex-shrink: 0;
+        background-color: #D9D9D9;
+        color: #000;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 70%;
+        border-color: none;
+        border-style: none;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .messenger_person_name_open{
+        color: #5869CB;
+        font-family: "Inter";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0;
+        margin-top: 12%;
+    }
+    
+    .messenger_person_desp_open{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .sms_icon_search{
+        width: 22px;
+    height: 22px;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 45%;
+    margin-left: 10%;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 35%;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 22%;
+        line-height: normal; 
+        margin-right: 5%;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 59%;
+    height: 70px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 118px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mesg_sidebar_div{
+        width:  270px;
+    height: 94px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 700px;
+        width:  290px;
+      }
+    .search_div_sms{
+        width:  260px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 3%;
+    
+    
+    }
+    .sms_icon_search{
+        width: 22px;
+    height: 22px;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 45%;
+    margin-left: 10%;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 35%;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 22%;
+        line-height: normal; 
+        margin-right: 5%;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 52%;
+    height: 70px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 118px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 3%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 3%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 3%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .mesg_sidebar_div{
+        width:  270px;
+    height: 94px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 700px;
+        width:  290px;
+      }
+    .search_div_sms{
+        width:  260px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 3%;
+    
+    
+    }
+    .sms_icon_search{
+        width: 22px;
+    height: 22px;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 45%;
+    margin-left: 10%;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 35%;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 22%;
+        line-height: normal; 
+        margin-right: 5%;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 52%;
+    height: 60px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 90px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 6%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+}
+
+@media only screen and (max-width: 651px) {
+    .mesg_sidebar_div{
+        width:  230px;
+    height: 94px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 600px;
+        width:  250px;
+      }
+    .search_div_sms{
+        width:  230px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 3%;
+    
+    
+    }
+    .sms_icon_search{
+        width: 22px;
+    height: 22px;
+    margin-top: 8%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 60%;
+    margin-left: 10%;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 35%;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 22%;
+        line-height: normal; 
+        margin-right: 5%;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 45%;
+    height: 50px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 90px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 6%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+    .round_div_mesage_open {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        background-color: #D9D9D9;
+        color: #000;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 70%;
+        border-color: none;
+        border-style: none;
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+    .messenger_person_name_open {
+        color: #5869CB;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0;
+        margin-top: 14%;
+    }
+    .messenger_person_desp_open {
+        color: #878787;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .main_sms_div_show {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .mesg_sidebar_div{
+    width:  130px !important;
+    height: 134px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    text-align: center;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 600px;
+        width:  160px !important;
+      }
+    .search_div_sms{
+        width:  130px !important;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 1%;
+        
+    width: 100px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_icon_search{
+        width: 12px;
+    height: 12px;
+    margin-top: 10%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 6%;
+    margin-left: 0% !important;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 9%;
+    margin-left: 0% !important;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0% !important;
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 1%;
+        line-height: normal; 
+        margin-left: 0% !important;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 50%;
+    height: 40px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 90px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 6%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 6%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+    .round_div_mesage_open {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        background-color: #D9D9D9;
+        color: #000;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 70%;
+        border-color: none;
+        border-style: none;
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+    .messenger_person_name_open {
+        color: #5869CB;
+        font-family: "Inter";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0;
+        margin-top: 14%;
+    }
+    .messenger_person_desp_open {
+        color: #878787;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .main_sms_div_show {
+        height: 685px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .mesg_sidebar_div{
+    width:  130px !important;
+    height: 134px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    text-align: center;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 600px;
+        width:  160px !important;
+      }
+    .search_div_sms{
+        width:  130px !important;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 1%;
+        
+    width: 100px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_icon_search{
+        width: 12px;
+    height: 12px;
+    margin-top: 10%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 6%;
+    margin-left: 0% !important;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 9%;
+    margin-left: 0% !important;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0% !important;
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 1%;
+        line-height: normal; 
+        margin-left: 0% !important;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 54%;
+    height: 35px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 70px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 8%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 8%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+    .round_div_mesage_open {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        background-color: #D9D9D9;
+        color: #000;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 70%;
+        border-color: none;
+        border-style: none;
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+    .messenger_person_name_open {
+        color: #5869CB;
+        font-family: "Inter";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0;
+        margin-top: 14%;
+    }
+    .messenger_person_desp_open {
+        color: #878787;
+        font-family: "Inter";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .main_sms_div_show {
+        height: 685px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .mesg_sidebar_div{
+    width:  130px !important;
+    height: 134px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 3%;
+    cursor: pointer;
+    text-align: center;
+    }
+    .sidebar_message_main_div {
+        margin-left: 2.5%;
+        height: 600px;
+        width:  160px !important;
+      }
+    .search_div_sms{
+        width:  130px !important;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    margin-bottom: 3%
+    }
+    .input_serach_sms{
+        outline: none;
+        border: none;
+        border-color: none;
+        margin-left: 1%;
+        
+    width: 100px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    .sms_icon_search{
+        width: 12px;
+    height: 12px;
+    margin-top: 10%;
+    margin-left: 3%;
+    }
+    .round_div_sms_person_name{
+        width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: #D9D9D9;
+    color: #000;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 70%;
+    border-color: none;
+    border-style: none;
+    margin-top: 6%;
+    margin-left: 0% !important;
+    }
+    .messenger_person_name{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 9%;
+    margin-left: 0% !important;
+    }
+    .messenger_person_desp{
+        color: #878787;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0% !important;
+    }
+    .sms_time{
+        color: #878787;
+        font-family: "Inter";
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        margin-top: 1%;
+        line-height: normal; 
+        margin-left: 0% !important;
+    }
+    .mesg_sidebar_div_active{
+        background: #3B50C8;
+    }
+    .messenger_person_name_active{
+        color: #FFF;
+    }
+    .messenger_person_desp_active{
+        color: #FFF;
+    }
+    .sms_time_active{
+        color: #FFF;
+    }
+    .main_div_sidebar_sms_messenger{
+        height: 600px;
+       
+        overflow-y: scroll;
+        margin-right: 0%;
+      }
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar {
+        width: 12px; /* Adjust the scrollbar width as needed */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-track {
+        background: transparent; /* Track color */
+      }
+      
+      .main_div_sidebar_sms_messenger::-webkit-scrollbar-thumb {
+        background: transparent; /* Thumb color */
+        border-radius: 6px; /* Rounded corners for the thumb */
+      }
+      .input_style_sms_end{
+        border-radius: 10px;
+    border: 1px solid #868686;
+    background: #FFF;
+    width: 45%;
+    height: 35px;
+    flex-shrink: 0;
+    color: #424242;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 5px;
+    outline: none;
+    margin-left: 3%;
+    padding-right: 5px;
+    }
+    .button_sms_send_style{
+        width: 65px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3B50C8;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none !important;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-color: #FFF;
+    box-shadow: 2px 2px 0px 0px #3b50c8;
+    border-style: none;
+    
+    }
+    .receive_sms_messenger{
+        width: 70%;
+    height: auto;
+    border-radius: 10px 10px 10px 0px;
+    background: #F5F5F5;
+    margin-right: 3%;
+    overflow: hidden;
+    }
+    .reseive_sms_name_header{
+        color: #5869CB;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 3%;
+    margin-top: 8%;
+    }
+    .para_sms_receive{
+        color: #424242;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    padding-right: 2%;
+    }
+    
+    
+    .send_sms_messenger{
+        width: 70%;
+        height: auto;
+        border-radius: 10px 10px 0px 10px;
+        background: #3B50C8;
+        margin-left: 3%;
+        margin-top: 2%;
+        overflow: hidden;
+    }
+    .send_sms_name_header{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 8%;
+    margin-left: 3%;
+    }
+    .para_sms_send{
+        color: #FFF;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    padding-right: 2%;
+    }
+    .main_sms_div_show {
+        height: 728px;
+    }
+    .round_div_mesage_open {
+        width: 44px;
+        height: 44px;
+        flex-shrink: 0;
+        background-color: #D9D9D9;
+        color: #000;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 70%;
+        border-color: none;
+        border-style: none;
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+    .messenger_person_name_open {
+        color: #5869CB;
+        font-family: "Inter";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0;
+        margin-top: 14%;
+    }
+    .messenger_person_desp_open {
+        color: #878787;
+        font-family: "Inter";
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .main_sms_div_show {
+        height: 685px;
+    }
+}

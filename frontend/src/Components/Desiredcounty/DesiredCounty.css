@@ -1,0 +1,565 @@
+.main_div_role_county {
+  width: 100%;
+}
+.third_div_main_county {
+  position: relative;
+}
+.checkbox_style_desired_county input[type="checkbox"] {
+  display: block;
+  cursor: pointer;
+}
+.main_div_scroll_state{
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  margin-top: 10px;
+  width: 90%;
+  
+  height: 80%;
+  margin-left: 3%;
+}
+.scrollablediv{
+
+}
+
+.main_div_scroll_state::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.main_div_scroll_state::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.main_div_scroll_state::-webkit-scrollbar-thumb {
+  background-color: #3b50c8;
+  outline: 1px solid slategrey;
+}
+@media only screen and (max-width: 3500px) and (min-width: 1920px) {
+  .third_divdesignforcode_county {
+    position: absolute;
+    height: 300px;
+    top: 102.5%;
+    left: 41.9%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+  .third_divdesignforcode_county {
+    position: absolute;
+    height: 300px;
+    top: 90%;
+    left: 41.9%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1900px) and (min-width: 1500px) {
+  .third_divdesignforcode_county {
+    position: absolute;
+    height: 300px;
+    top: 55.6%;
+    left: 42.3%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 850px) {
+  .third_divdesignforcode_county {
+    position: absolute;
+    height: 200px;
+    top: 70.5%;
+    left: 40%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 850px) and (min-width: 100px) {
+  .third_divdesignforcode_county {
+    display: none;
+  }
+}
+.desiredcountyheading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #3b50c8;
+}
+.projectroleparacounty {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1024px) {
+  .desiredcountyheading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #3b50c8;
+  }
+  .projectroleparacounty {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .desiredcountyheading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #3b50c8;
+  }
+  .projectroleparacounty {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+.inputStyle {
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+}
+@media only screen and (max-width: 1024px) {
+  .inputStyle {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 3px 3px 0px 0px #5869cb;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .inputStyle {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputStyle {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+  }
+}
+.rolebutton {
+  background: #3b50c8;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .freshleadbutton {
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .freshleadbutton {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .freshleadbutton {
+    margin-left: 10px;
+  }
+}
+.rolebutton:hover {
+  background: #3b50c8;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+.buttondetail {
+  margin-bottom: 30px !important;
+}
+.forgotpasswordpara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1024px) {
+  .forgotpasswordpara {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .forgotpasswordpara {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .forgotpasswordpara {
+    margin-left: 10px;
+  }
+}
+.orstyle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #656565;
+}
+@media only screen and (max-width: 426px) {
+  .orstyle {
+    margin-left: 10px;
+  }
+}
+.desiredcountydiv {
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: start !important;
+  color: #3b50c8 !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-top: 10px !important;
+  height: 390px !important;
+  /* overflow: scroll !important; */
+  white-space: nowrap !important;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+.state_input_check {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  /* text-align: center; */
+  margin-left: 30%;
+}
+@media only screen and (max-width: 768px) {
+  .desiredcountydiv {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .desiredcountydiv {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-top: 10px !important;
+  }
+}
+.checkboxbuttonforcoountysubmit {
+  background: #5869cb;
+  border-radius: 10px;
+  border: 1px solid #ffffff !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+.checkboxbuttonforcoountysubmit:hover {
+  background: #1532d7;
+}
+@media only screen and (max-width: 1024px) {
+  .checkboxbuttonforcoountysubmit {
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .checkboxbuttonforcoountysubmit {
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .checkboxbuttonforcoountysubmit {
+    margin-left: 10px !important;
+    margin-bottom: 30px;
+  }
+}
+.checkboxbuttonforrole:hover {
+  background: #5869cb;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: start;
+  color: #ffffff;
+  width: 80%;
+  margin-left: 10%;
+  height: 50px;
+}
+
+.ppc_logo {
+  width: 20%;
+  height: fit-content;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 768px) {
+  .ppc_logo {
+    width: 30%;
+    height: fit-content;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .ppc_logo {
+    width: 30%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+.progress {
+  width: 80%;
+  padding: 0px 0px !important;
+  margin-top: 25px;
+  /* margin: 20px 50px; */
+}
+
+.numberperctage {
+  margin-left: 40%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #656565;
+}
+@media only screen and (max-width: 769px) {
+  .numberperctage {
+    margin-left: 34%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #656565;
+  }
+  .progress {
+    width: 80%;
+    padding: 0px 0px !important;
+    margin-top: 25px;
+    height: 10px;
+    /* margin: 20px 50px; */
+  }
+}
+@media only screen and (max-width: 426px) {
+  .numberperctage {
+    margin-left: 25%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #656565;
+  }
+  .progress {
+    width: 80%;
+    padding: 0px 0px !important;
+    margin-top: 20px;
+    height: 8px;
+    /* margin: 20px 50px; */
+  }
+}
+.mainnavbardivcounty {
+  width: 100%;
+}
+.checkboxdetail {
+  margin-top: 10px;
+}
+.checkboxinput {
+  margin-top: 13px !important;
+}
+
+.mapdivdata {
+  display: flex;
+  font-size: 10px;
+  font-weight: 100px;
+  color: #3b50c8;
+}
+
+.selectedfromcounty {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 10px;
+
+  color: #656565;
+}
+
+.inputsearchcounty {
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  /* width: 233px; */
+  height: 37px;
+  outline: none;
+}
+.inputsearchcounty:focus::placeholder {
+  color: transparent;
+}
+.countynamestyle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1440px) {
+  .inputsearchcounty {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    /* width: 233px; */
+    height: 37px;
+    width: 200px;
+  }
+  .selectedfromcounty {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 10px;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .inputsearchcounty {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    /* width: 233px; */
+    height: 37px;
+    width: 140px;
+  }
+  .selectedfromcounty {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 19px;
+    margin-top: 10px;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputsearchcounty {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    /* width: 233px; */
+    height: 37px;
+    width: 90px;
+  }
+  .selectedfromcounty {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 19px;
+    margin-top: 10px;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .inputsearchcounty {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    /* width: 233px; */
+    height: 37px;
+    width: 100px;
+    margin-bottom: 15px !important;
+  }
+  .selectedfromcounty {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 19px;
+    margin-top: 2px;
+
+    color: #656565;
+  }
+}

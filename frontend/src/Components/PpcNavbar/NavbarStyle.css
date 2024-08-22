@@ -1,0 +1,22 @@
+.ppclogostyle {
+  width: 70% !important;
+  height: 20% !important;
+  margin-left: 10% !important;
+  margin-top: 2% !important;
+}
+@media only screen and (max-width: 768px) {
+  .ppclogostyle {
+    width: 50%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .ppclogostyle {
+    width: 40%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+}

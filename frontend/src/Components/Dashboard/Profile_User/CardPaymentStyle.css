@@ -1,0 +1,24 @@
+.add_buton_modal {
+  margin-top: 3%;
+  margin-left: 88%;
+}
+
+@media only screen and (max-width: 426px) {
+  .add_buton_modal {
+    margin-top: 3%;
+    margin-left: 78%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .add_buton_modal {
+    margin-top: 3%;
+    margin-left: 74% !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .add_buton_modal {
+    margin-top: 3%;
+    margin-left: 69% !important;
+  }
+}

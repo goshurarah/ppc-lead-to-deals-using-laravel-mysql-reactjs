@@ -1,0 +1,6455 @@
+.profile_left_div {
+  width: 95% !important;
+  height: 646px !important;
+  background: #ffffff !important;
+  border-radius: 15px !important;
+  margin-left: 5% !important;
+}
+.my_profile_para {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  color: #868686 !important;
+  margin-left: 6% !important;
+  margin-bottom: 7% !important;
+}
+.round_picture_div {
+  width: 226px !important;
+  height: 226px !important;
+  background: #ffffff !important;
+  border: 2px solid #5869cb !important;
+  border-radius: 169px !important;
+  margin-top: 5% !important;
+  margin-left: 5% !important;
+  cursor: pointer !important;
+}
+.upload_picture_lines {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  text-align: center !important;
+
+  color: #868686 !important;
+  margin-left: 1% !important;
+  margin-top: 35% !important;
+}
+.input_style_profile {
+  width: 90% !important;
+  height: 60px !important;
+  padding: 4% !important;
+
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+  margin-left: 5% !important;
+  color: #656565 !important;
+  outline: none !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+}
+.input_style_profile:focus::placeholder {
+  color: transparent;
+}
+.para_notification {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  color: #868686 !important;
+  margin-left: 5% !important;
+  margin-top: 5% !important;
+}
+
+.heading_notification {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  color: #3b50c8 !important;
+  margin-left: 10% !important;
+  margin-top: 5% !important;
+}
+
+.para_inside_notification {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  line-height: 16px !important;
+  /* or 89% */
+
+  margin-left: 12% !important;
+  margin-top: 0% !important;
+  color: #000000 !important;
+}
+
+.main_btn_right_profile {
+  margin-right: 9%;
+  text-align:end ;
+}
+.change_password_btn {
+  width: 194px !important;
+  height: 60px !important;
+  background: #ffffff !important;
+  border: 1px solid #3b50c8 !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  color: #656565 !important;
+  cursor: pointer !important;
+}
+.save_changes_btn {
+  width: 194px !important;
+  height: 60px !important;
+  background: #3b50c8 !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  color: #ffffff !important;
+
+  margin-left: 3% !important;
+}
+
+.payment_detail_div {
+  width: 92% !important;
+  height: auto !important;
+  margin-left: 0% !important;
+
+  background: #ffffff !important;
+  border-radius: 15px !important;
+  margin-top: 4% !important;
+}
+.payment_detail_heading {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  /* identical to box height */
+
+  margin-left: 3% !important;
+  padding-top: 4% !important;
+  color: #868686 !important;
+}
+.input_payment_detail {
+  width: 92% !important;
+  margin-left: 3% !important;
+  height: 60px !important;
+  left: 1294px !important;
+  top: 303px !important;
+  padding-left: 4% !important;
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  color: #656565 !important;
+  margin-top: 5% !important;
+  outline: none !important;
+}
+.input_payment_detail:focus::placeholder {
+  color: transparent;
+}
+.save_changes_payment_btn {
+  width: 174px !important;
+  height: 60px !important;
+
+  background: #3b50c8 !important;
+  border-radius: 10px !important;
+
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  margin-bottom: 3% !important;
+  color: #ffffff !important;
+  margin-left: 3% !important;
+  margin-top: 30% !important;
+  border: none !important;
+  border-style: none !important;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+}
+
+.county_display_in_profile_div {
+  height: 519px !important;
+  margin-top: 5% !important;
+  width: 92% !important;
+  background: #ffffff !important;
+  border-radius: 15px !important;
+  overflow: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.main_div_scroll_user_profile{
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  margin-top: 15px;
+  width: 90%;
+  
+  height: 68%;
+  margin-left: 3%;
+}
+.main_div_scroll_user_profile::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.main_div_scroll_user_profile::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.main_div_scroll_user_profile::-webkit-scrollbar-thumb {
+  background-color: #3b50c8;
+  outline: 1px solid slategrey;
+}
+
+.county_inside_para {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 29px !important;
+  /* identical to box height */
+  margin-top: 3% !important;
+  color: #868686 !important;
+  padding-left: 3% !important;
+}
+.select_digit_county {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  /* identical to box height */
+  margin-left: 13% !important;
+  margin-top: 10% !important;
+  color: #3b50c8 !important;
+}
+.input_search_county_in_profile {
+  width: 92% !important;
+  margin-left: 3% !important;
+  height: 60px !important;
+  left: 1294px !important;
+  top: 303px !important;
+  padding-left: 4% !important;
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  color: #656565 !important;
+  margin-top: 1% !important;
+  margin-bottom: 3% !important;
+  outline: none !important;
+}
+.input_search_county_in_profile:focus::placeholder {
+  color: transparent;
+}
+.checkboxinputcounty {
+  margin-top: 0px !important;
+  margin-left: 50% !important;
+  cursor: pointer !important;
+  width: 17px;
+height: 17px;
+flex-shrink: 0;
+}
+.save_chnages_main_btn_profile_right {
+  margin-top: 20% !important;
+  margin-left: 5% !important;
+  margin-bottom: 5% !important;
+  width: 194px !important;
+  height: 60px !important;
+  background: #3b50c8 !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  outline: none !important;
+  color: #ffffff !important;
+  border-style: none !important;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+}
+
+.change_password_main_div {
+  width: 92% !important;
+  margin-left: 0% !important;
+  margin-top: 4% !important;
+  height: 374px !important;
+  background: #ffffff !important;
+  border-radius: 15px !important;
+}
+.change_password_para_in_profile {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  /* identical to box height */
+  padding-top: 3% !important;
+  margin-left: 3% !important;
+
+  color: #868686 !important;
+}
+.input_password_change_style {
+  width: 100% !important;
+  margin-left: 3% !important;
+  height: 60px !important;
+  padding-left: 4% !important;
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  color: #656565 !important;
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+  outline: none !important;
+}
+.input_password_change_style:focus::placeholder {
+  color: transparent;
+}
+.view_password_icon_style {
+  margin-left: 5% !important;
+  cursor: pointer !important;
+}
+.input_new_password {
+  margin-top: 5% !important;
+  width: 85% !important;
+  outline: none !important;
+  border: none !important;
+  border-style: none !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #656565 !important;
+}
+.input_new_password:focus::placeholder {
+  color: transparent;
+}
+.cancel_btn_in_change_password {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+
+  color: #656565 !important;
+  width: 150px !important;
+  height: 60px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  background: #ffffff !important;
+  border: 1px solid #3b50c8 !important;
+  border-radius: 10px !important;
+  margin-top: 15% !important;
+  margin-left: 6% !important;
+}
+.chnage_password_btn_in_profile {
+  width: 170px !important;
+  height: 60px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  margin-top: 15% !important;
+  color: #ffffff !important;
+  background: #3b50c8 !important;
+  border-radius: 10px !important;
+  border: none !important;
+  margin-left: 15% !important;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+}
+.label124 {
+  cursor: pointer !important;
+  text-indent: -9999px !important;
+  width: 40px !important;
+  height: 20px !important;
+  background: #d9d9d9 !important;
+  display: block !important;
+  border-radius: 100px !important;
+  position: relative !important;
+  margin-top: 0%;
+}
+
+.label124:after {
+  content: "" !important;
+  position: absolute !important;
+  top: 1px !important;
+  left: 1px !important;
+  width: 18px !important;
+  height: 18px !important;
+  background: #868686 !important;
+  border-radius: 90px !important;
+  transition: 0.4s !important;
+}
+
+input:checked + .label124:after {
+  background: #3b50c8 !important;
+}
+
+input:checked + .label124:after {
+  left: calc(100% - 1px) !important;
+  transform: translateX(-100%) !important;
+}
+
+.label12:active:after {
+  width: 100px !important;
+}
+
+.payment_card_main_div {
+  height: auto !important;
+
+  width: 92% !important;
+  margin-left: 0% !important;
+  margin-top: 5% !important;
+
+  background: #ffffff !important;
+  border-radius: 15px !important;
+}
+.payment_card_saved_div_main {
+  width: 92% !important;
+  margin-left: 3% !important;
+  background: #eaeaea !important;
+  border-radius: 10px !important;
+  height: 76px !important;
+  margin-bottom: 3%;
+}
+.saved_image_payment {
+  margin-top: 3% !important;
+  margin-left: 5% !important;
+  margin-bottom: 1% !important;
+}
+.bank_number {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  /* identical to box height */
+  margin-left: 5% !important;
+
+  color: #585858 !important;
+}
+
+.add_new_card_btn {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+
+  color: #ffffff !important;
+  width: 194px !important;
+  height: 60px !important;
+  border: 1px solid #f7f7f8 !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  background: #3b50c8 !important;
+  border-radius: 10px !important;
+  margin-left: 56% !important;
+  margin-top: 20% !important;
+  margin-bottom: 5% !important;
+}
+.countyparastyle {
+  color: #656565;
+  font-size: 16px;
+  font-family: "Inter" !important;
+}
+.delete_button_setting {
+  width: 50px !important;
+  height: 50px !important;
+  margin-left: 20% !important;
+  margin-top: 12% !important;
+  cursor: pointer;
+}
+.input_payment_detail_cvc {
+  width: 92% !important;
+  margin-left: 6% !important;
+  height: 60px !important;
+  left: 1294px !important;
+  top: 303px !important;
+  padding-left: 8% !important;
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  color: #656565 !important;
+  margin-top: 10% !important;
+  outline: none !important;
+}
+.input_payment_detail_cvc:focus::placeholder {
+  color: transparent;
+}
+.input_payment_detail_date {
+  width: 90% !important;
+  margin-left: 0% !important;
+  height: 60px !important;
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  color: #656565 !important;
+  margin-top: 10% !important;
+  outline: none !important;
+  padding: 4% !important;
+}
+.checkbox_show_to_geo input[type="checkbox"] {
+  display: block;
+}
+@media only screen and (max-width: 2859px) {
+  .delete_button_setting {
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 40% !important;
+    margin-top: 5% !important;
+  }
+  .profile_left_div {
+    width: 95% !important;
+    height: 646px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 226px !important;
+    height: 226px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 7% !important;
+    margin-left: 10% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 60px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    /* or 89% */
+
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .change_password_btn {
+    width: 194px !important;
+    height: 60px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 194px !important;
+    height: 60px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+
+    margin-left: 3% !important;
+  }
+
+  .payment_detail_div {
+    width: 92% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 60px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+
+  .save_changes_payment_btn {
+    width: 174px !important;
+    height: 60px !important;
+    margin-bottom: 3% !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 7% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 519px !important;
+    margin-top: 5% !important;
+    width: 92% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .countyparastyle {
+    color: #656565;
+    font-size: 16px;
+    font-family: "Inter";
+  }
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 13% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 5px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 20% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    width: 194px !important;
+    height: 60px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+    height: 374px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 5% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 150px !important;
+    height: 60px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 15% !important;
+    margin-left: 6% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 170px !important;
+    height: 60px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 15% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 21% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 40px !important;
+    height: 20px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 18px !important;
+    height: 18px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 76px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 0% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 194px !important;
+    height: 60px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 55% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 2460px) {
+  .delete_button_setting {
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 50% !important;
+    margin-top: 6% !important;
+  }
+  .profile_left_div {
+    width: 95% !important;
+    height: 646px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 226px !important;
+    height: 226px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 60px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    /* or 89% */
+
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    text-align:end ;
+  }
+  .change_password_btn {
+    width: 194px !important;
+    height: 60px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 194px !important;
+    height: 60px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+
+    margin-left: 3% !important;
+  }
+
+  .payment_detail_div {
+    width: 92% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 60px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+
+  .save_changes_payment_btn {
+    width: 174px !important;
+    height: 60px !important;
+    margin-bottom: 3% !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 30% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 519px !important;
+    margin-top: 5% !important;
+    width: 92% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 3% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 13% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .countyparastyle {
+    color: #656565;
+    font-size: 16px;
+    font-family: "Inter" !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 5px !important;
+    margin-left: 50% !important;
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #3B50C8;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 20% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    width: 194px !important;
+    height: 60px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+    height: 374px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 5% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 150px !important;
+    height: 60px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 15% !important;
+    margin-left: 6% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 170px !important;
+    height: 60px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 15% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 21% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 40px !important;
+    height: 20px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 18px !important;
+    height: 18px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 76px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 194px !important;
+    height: 60px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 56% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 2360px) {
+  .main_btn_right_profile {
+    text-align:end ;
+  }
+  .main_div_scroll_user_profile{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-top: 15px;
+    width: 90%;
+    
+    height: 48%;
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  .delete_button_setting {
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 37% !important;
+    margin-top: 9% !important;
+  }
+  .profile_left_div {
+    width: 95% !important;
+    height: 646px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .main_div_scroll_user_profile{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-top: 15px;
+    width: 90%;
+    
+    height: 65%;
+    margin-left: 3%;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 226px !important;
+    height: 226px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 60px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    /* or 89% */
+
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    text-align:end ;
+  }
+  .change_password_btn {
+    width: 194px !important;
+    height: 60px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 194px !important;
+    height: 60px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+
+    margin-left: 3% !important;
+  }
+
+  .payment_detail_div {
+    width: 92% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 60px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+
+  .save_changes_payment_btn {
+    width: 174px !important;
+    height: 60px !important;
+    margin-bottom: 3% !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 30% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 519px !important;
+    margin-top: 5% !important;
+    width: 92% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 3% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 13% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .countyparastyle {
+    color: #656565;
+    font-size: 16px;
+    font-family: "Inter" !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 4px !important;
+    margin-left: 70% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 20% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    width: 194px !important;
+    height: 60px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+    height: 374px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 60px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 5% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 150px !important;
+    height: 60px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 15% !important;
+    margin-left: 6% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 170px !important;
+    height: 60px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 15% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 21% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 40px !important;
+    height: 20px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 18px !important;
+    height: 18px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 76px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 194px !important;
+    height: 60px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 56% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 28% !important;
+    margin-top: 16% !important;
+  }
+  .profile_left_div {
+    width: 95% !important;
+    height: 556px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 206px !important;
+    height: 206px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 50px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    /* or 89% */
+
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    text-align:end ;
+  }
+  .change_password_btn {
+    width: 184px !important;
+    height: 50px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 184px !important;
+    height: 50px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+
+    margin-left: 3% !important;
+  }
+
+  .payment_detail_div {
+    width: 92% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 50px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 50px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 50px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+
+  .save_changes_payment_btn {
+    width: 174px !important;
+    height: 60px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 20% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 500px !important;
+    margin-top: 5% !important;
+    width: 92% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+  .countyparastyle {
+    color: #656565;
+    font-size: 14px;
+    font-family: "Inter" !important;
+  }
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 3% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 17% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 50px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 1px !important;
+    margin-left: 30% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 20% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    width: 184px !important;
+    height: 50px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+    height: 344px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 50px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 3% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 150px !important;
+    height: 50px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 15% !important;
+    margin-left: 6% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 184px !important;
+    height: 50px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 15% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 15% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 30px !important;
+    height: 15px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 13px !important;
+    height: 13px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 1% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 194px !important;
+    height: 50px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 52% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 1340px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 15% !important;
+    margin-top: 18% !important;
+  }
+  .profile_left_div {
+    width: 95% !important;
+    height: 446px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 166px !important;
+    height: 166px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    /* or 89% */
+
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 38% !important;
+  }
+  .change_password_btn {
+    width: 164px !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+
+  }
+  .save_changes_btn {
+    width: 164px !important;
+    height: 45px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 0% !important;
+  }
+
+  .payment_detail_div {
+    width: 92% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 45px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 174px !important;
+    height: 45px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 18% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 400px !important;
+    margin-top: 5% !important;
+    width: 92% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 3% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 17% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 3px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 20% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    width: 154px !important;
+    height: 45px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+    height: 294px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 3% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 120px !important;
+    height: 50px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+     margin-top: 15% !important;
+    margin-left: 6% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 120px !important;
+    height: 50px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+     margin-top: 15% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 45% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 30px !important;
+    height: 15px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 13px !important;
+    height: 13px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 154px !important;
+    height: 45px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 42% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 10% !important;
+    margin-top: 25% !important;
+  }
+  .profile_left_div {
+    width: 95% !important;
+    height: 446px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 166px !important;
+    height: 166px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    /* or 89% */
+
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 38% !important;
+  }
+  .change_password_btn {
+    width: 164px !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 164px !important;
+    height: 45px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 0% !important;
+  }
+
+  .payment_detail_div {
+    width: 92% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 45px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 174px !important;
+    height: 45px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 18% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 400px !important;
+    margin-top: 5% !important;
+    width: 92% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 3% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 17% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 20% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    width: 154px !important;
+    height: 45px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+    height: 294px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 45px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 3% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 110px !important;
+    height: 45px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 25% !important;
+    margin-left: 6% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 110px !important;
+    height: 45px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 25% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 50% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 92% !important;
+    margin-left: 0% !important;
+    margin-top: 4% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 154px !important;
+    height: 45px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 42% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 50% !important;
+    margin-top: 6% !important;
+  }
+  .profile_left_div {
+    width: 90% !important;
+    height: 446px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 146px !important;
+    height: 146px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .main_div_scroll_user_profile{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-top: 15px;
+    width: 90%;
+    
+    height: 58%;
+    margin-left: 3%;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 40px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 16px !important;
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 15% !important;
+  }
+  .change_password_btn {
+    width: 154px !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 154px !important;
+    height: 40px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_div {
+    width: 90% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 40px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 154px !important;
+    height: 40px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 5% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 400px !important;
+    margin-top: 5% !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 40% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    width: 154px !important;
+    height: 45px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+    height: 334px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 0% !important;
+    height: 50px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 3% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 120px !important;
+    height: 50px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 3% !important;
+    margin-left: 0% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 120px !important;
+    height: 50px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 3% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 0% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 1% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 154px !important;
+    height: 40px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 38% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 50% !important;
+    margin-top: 10% !important;
+  }
+  .profile_left_div {
+    width: 90% !important;
+    height: 446px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 146px !important;
+    height: 146px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 10px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 40px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 16px !important;
+    margin-left: 12% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 15% !important;
+  }
+  .change_password_btn {
+    width: 154px !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 154px !important;
+    height: 40px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_div {
+    width: 90% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 29px !important;
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 40px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 90% !important;
+    margin-left: 0% !important;
+    height: 45px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 154px !important;
+    height: 40px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 5% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 400px !important;
+    margin-top: 5% !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    /* identical to box height */
+    margin-left: 40% !important;
+    margin-top: 10% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #3B50C8;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    width: 154px !important;
+    height: 45px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+    height: 334px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 0% !important;
+    height: 50px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 3% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #656565 !important;
+    width: 110px !important;
+    height: 50px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 2% !important;
+    margin-left: 0% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 110px !important;
+    height: 50px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 0% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 1% !important;
+    margin-left: 5% !important;
+    margin-bottom: 1% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    width: 154px !important;
+    height: 40px !important;
+
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+
+    margin-left: 63% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 35% !important;
+    margin-top: 14% !important;
+  }
+  .main_div_scroll_user_profile{
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    margin-top: 15px;
+    width: 90%;
+    
+    height: 44%;
+    margin-left: 3%;
+  }
+  .profile_left_div {
+    width: 90% !important;
+    height: 335px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 126px !important;
+    height: 126px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 8px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 16px !important;
+    margin-left: 17% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 5% !important;
+  }
+  .change_password_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_div {
+    width: 90% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 35px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 89% !important;
+    margin-left: 0% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 124px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 5% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 300px !important;
+    margin-top: 5% !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    margin-left: 5% !important;
+    margin-top: 0% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    width: 135px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+    height: 334px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 0% !important;
+    height: 50px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 3% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    width: 110px !important;
+    height: 50px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 2% !important;
+    margin-left: 0% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 110px !important;
+    height: 50px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 0% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 0% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    width: 154px !important;
+    height: 40px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 42% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .delete_button_setting {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 35% !important;
+    margin-top: 14% !important;
+  }
+  .profile_left_div {
+    width: 90% !important;
+    height: 335px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 126px !important;
+    height: 126px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 8px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 16px !important;
+    margin-left: 17% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 5% !important;
+  }
+  .change_password_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    cursor: pointer !important;
+    margin-bottom: 3%;
+  }
+  .save_changes_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_div {
+    width: 90% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 35px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 89% !important;
+    margin-left: 0% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 124px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 5% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 300px !important;
+    margin-top: 5% !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    margin-left: 5% !important;
+    margin-top: 0% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    width: 135px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+    height: 334px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 5% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    width: 110px !important;
+    height: 40px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 2% !important;
+    margin-left: 3% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 110px !important;
+    height: 40px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 3% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 2% !important;
+    margin-left: 5% !important;
+    margin-bottom: 0% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    width: 154px !important;
+    height: 40px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 42% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .profile_left_div {
+    width: 90% !important;
+    height: 315px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 116px !important;
+    height: 116px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 7px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 30px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 8px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 8px !important;
+    line-height: 16px !important;
+    margin-left: 17% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 5% !important;
+  }
+  .change_password_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 0% !important;
+  }
+  .payment_detail_div {
+    width: 90% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 30px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 30px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 89% !important;
+    margin-left: 0% !important;
+    height: 30px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 124px !important;
+    height: 30px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 5% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 300px !important;
+    margin-top: 5% !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    margin-left: 5% !important;
+    margin-top: 0% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    width: 135px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+    height: 334px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 5% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    width: 110px !important;
+    height: 40px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 2% !important;
+    margin-left: 3% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 110px !important;
+    height: 40px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 3% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 3% !important;
+    margin-left: 5% !important;
+    margin-bottom: 0% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    width: 134px !important;
+    height: 40px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 40% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .profile_left_div {
+    width: 90% !important;
+    height: 315px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-left: 5% !important;
+  }
+  .my_profile_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 6% !important;
+    margin-bottom: 7% !important;
+  }
+  .round_picture_div {
+    width: 116px !important;
+    height: 116px !important;
+    background: #ffffff !important;
+    border: 2px solid #5869cb !important;
+    border-radius: 169px !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+  .upload_picture_lines {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 7px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+
+    color: #868686 !important;
+    margin-left: 1% !important;
+    margin-top: 35% !important;
+  }
+  .input_style_profile {
+    width: 90% !important;
+    height: 30px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 8px !important;
+    line-height: 19px !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    margin-left: 5% !important;
+    color: #656565 !important;
+    outline: none !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+  }
+  .para_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    color: #868686 !important;
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  .heading_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 20px !important;
+    color: #3b50c8 !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+  }
+
+  .para_inside_notification {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 8px !important;
+    line-height: 16px !important;
+    margin-left: 17% !important;
+    margin-top: 0% !important;
+    color: #000000 !important;
+  }
+
+  .main_btn_right_profile {
+    margin-left: 5% !important;
+  }
+  .change_password_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    margin-bottom: 3%;
+    cursor: pointer !important;
+  }
+  .save_changes_btn {
+    width: 134px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    color: #ffffff !important;
+    margin-left: 0% !important;
+  }
+  .payment_detail_div {
+    width: 90% !important;
+    height: auto !important;
+    margin-left: 0% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    margin-top: 4% !important;
+    margin-left: 5% !important;
+  }
+  .payment_detail_heading {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    margin-left: 3% !important;
+    padding-top: 4% !important;
+    color: #868686 !important;
+  }
+  .input_payment_detail {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 30px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 5% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_cvc {
+    width: 92% !important;
+    margin-left: 6% !important;
+    height: 30px !important;
+    left: 1294px !important;
+    top: 303px !important;
+
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .input_payment_detail_date {
+    width: 89% !important;
+    margin-left: 0% !important;
+    height: 30px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 10% !important;
+    outline: none !important;
+  }
+  .save_changes_payment_btn {
+    width: 124px !important;
+    height: 30px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    margin-left: 3% !important;
+    margin-top: 5% !important;
+    border: none !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .county_display_in_profile_div {
+    height: 300px !important;
+    margin-top: 5% !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-bottom: 5% !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    overflow-y: hidden}
+
+  .county_inside_para {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 29px !important;
+    margin-top: 3% !important;
+    color: #868686 !important;
+    padding-left: 5% !important;
+  }
+  .select_digit_county {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    line-height: 22px !important;
+    margin-left: 5% !important;
+    margin-top: 0% !important;
+    color: #3b50c8 !important;
+  }
+  .input_search_county_in_profile {
+    width: 92% !important;
+    margin-left: 3% !important;
+    height: 35px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 9px !important;
+    line-height: 19px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    color: #656565 !important;
+    margin-top: 1% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .checkboxinputcounty {
+    margin-top: 0px !important;
+    margin-left: 50% !important;
+  }
+  .save_chnages_main_btn_profile_right {
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    width: 135px !important;
+    height: 35px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    outline: none !important;
+    color: #ffffff !important;
+    border-style: none !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+
+  .change_password_main_div {
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+    height: 334px !important;
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .change_password_para_in_profile {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+    color: #868686 !important;
+  }
+  .input_password_change_style {
+    width: 100% !important;
+    margin-left: 3% !important;
+    height: 40px !important;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+    line-height: 19px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    outline: none !important;
+  }
+  .view_password_icon_style {
+    margin-left: 5% !important;
+  }
+  .input_new_password {
+    margin-top: 5% !important;
+    width: 85% !important;
+    outline: none !important;
+    border: none !important;
+    border-style: none !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 10px !important;
+    color: #656565 !important;
+  }
+  .cancel_btn_in_change_password {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #656565 !important;
+    width: 110px !important;
+    height: 40px !important;
+    box-shadow: 2px 2px 0px 0px #5869cb !important;
+    background: #ffffff !important;
+    border: 1px solid #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-top: 2% !important;
+    margin-left: 3% !important;
+  }
+  .chnage_password_btn_in_profile {
+    width: 110px !important;
+    height: 40px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 10px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    color: #ffffff !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    margin-left: 3% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+  .label124 {
+    cursor: pointer !important;
+    text-indent: -9999px !important;
+    width: 20px !important;
+    height: 10px !important;
+    background: #d9d9d9 !important;
+    display: block !important;
+    border-radius: 100px !important;
+    position: relative !important;
+    margin-top: 0% !important;
+  }
+
+  .label124:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 1px !important;
+    left: 1px !important;
+    width: 8px !important;
+    height: 8px !important;
+    background: #868686 !important;
+    border-radius: 90px !important;
+    transition: 0.4s !important;
+  }
+
+  input:checked + .label124:after {
+    background: #3b50c8 !important;
+  }
+
+  input:checked + .label124:after {
+    left: calc(100% - 1px) !important;
+    transform: translateX(-100%) !important;
+  }
+
+  .label12:active:after {
+    width: 100px !important;
+  }
+
+  .payment_card_main_div {
+    height: auto !important;
+
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 2% !important;
+
+    background: #ffffff !important;
+    border-radius: 15px !important;
+  }
+  .payment_card_saved_div_main {
+    width: 92% !important;
+    margin-left: 3% !important;
+    background: #eaeaea !important;
+    border-radius: 10px !important;
+    height: 66px !important;
+  }
+  .saved_image_payment {
+    margin-top: 3% !important;
+    margin-left: 5% !important;
+    margin-bottom: 0% !important;
+  }
+  .bank_number {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 29px !important;
+    /* identical to box height */
+    margin-left: 5% !important;
+
+    color: #585858 !important;
+  }
+
+  .add_new_card_btn {
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    width: 134px !important;
+    height: 40px !important;
+    background: #3b50c8 !important;
+    border-radius: 10px !important;
+    margin-left: 40% !important;
+    margin-top: 20% !important;
+    margin-bottom: 5% !important;
+    border: 1px solid #f7f7f8 !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+  }
+}
+.reload_style_image{
+width: 40px;
+height: 40px;
+margin-right: 5%;
+margin-top: 2%;
+cursor: pointer;
+}

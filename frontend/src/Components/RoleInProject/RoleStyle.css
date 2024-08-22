@@ -1,0 +1,390 @@
+.mainrole {
+  width: 100%;
+}
+.third_div_design {
+  position: relative;
+}
+/* .third_design {
+  position: absolute;
+
+  height: 300px;
+  top: 62%;
+  left: 42%;
+  width: 60%;
+} */
+@media only screen and (max-width: 3500px) and (min-width: 1920px) {
+  .third_design {
+    position: absolute;
+    height: 300px;
+    top: 102.5%;
+    left: 41.9%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+  .third_design {
+    position: absolute;
+    height: 300px;
+    top: 112.5%;
+    left: 41.9%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1900px) and (min-width: 1500px) {
+  .third_design {
+    position: absolute;
+    height: 300px;
+    top: 73%;
+    left: 42%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 850px) {
+  .third_design {
+    position: absolute;
+    height: 200px;
+    top: 70.5%;
+    left: 40%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 850px) and (min-width: 100px) {
+  .third_design {
+    display: none;
+  }
+}
+.signup {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #3b50c8;
+}
+.projectrolepara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1024px) {
+  .signup {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #3b50c8;
+  }
+  .projectrolepara {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .signup {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #3b50c8;
+  }
+  .projectrolepara {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+.inputStyle {
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+}
+@media only screen and (max-width: 1024px) {
+  .inputStyle {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 3px 3px 0px 0px #5869cb;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .inputStyle {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputStyle {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+  }
+}
+.rolebutton {
+  background: #3b50c8;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .freshleadbutton {
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .freshleadbutton {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .freshleadbutton {
+    margin-left: 10px;
+  }
+}
+.rolebutton:hover {
+  background: #3b50c8;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+.buttondetail {
+  margin-bottom: 30px !important;
+}
+.forgotpasswordpara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1024px) {
+  .forgotpasswordpara {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .forgotpasswordpara {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .forgotpasswordpara {
+    margin-left: 10px;
+  }
+}
+.orstyle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #656565;
+}
+@media only screen and (max-width: 426px) {
+  .orstyle {
+    margin-left: 10px;
+  }
+}
+.checkboxbuttonforrolesignup {
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: start !important;
+  color: #3b50c8 !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-top: 10px !important;
+  height: 50px !important;
+}
+.checkboxbuttonforrolesignup input[type="checkbox"] {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .checkboxbuttonforrolesignup {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .checkboxbuttonforrolesignup {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-top: 10px !important;
+  }
+}
+.checkboxbuttonforrolesubmit {
+  background: #5869cb;
+
+  border-radius: 10px;
+  border: 1px solid #ffffff  !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+@media only screen and (max-width: 1024px) {
+  .checkboxbuttonforrolesubmit {
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .checkboxbuttonforrolesubmit {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .checkboxbuttonforrolesubmit {
+    margin-left: 10px !important;
+  }
+}
+
+.ppclogo {
+  width: 20%;
+  height: fit-content;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 768px) {
+  .ppclogo {
+    width: 30%;
+    height: fit-content;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .ppclogo {
+    width: 30%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+.progress {
+  width: 80%;
+  padding: 0px 0px !important;
+  margin-top: 25px;
+  /* margin: 20px 50px; */
+}
+
+.numberperctage {
+  margin-left: 40%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #656565;
+}
+@media only screen and (max-width: 769px) {
+  .numberperctage {
+    margin-left: 34%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #656565;
+  }
+  .progress {
+    width: 80%;
+    padding: 0px 0px !important;
+    margin-top: 25px;
+    height: 10px;
+    /* margin: 20px 50px; */
+  }
+}
+@media only screen and (max-width: 426px) {
+  .numberperctage {
+    margin-left: 25%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #656565;
+  }
+  .progress {
+    width: 80%;
+    padding: 0px 0px !important;
+    margin-top: 20px;
+    height: 8px;
+    /* margin: 20px 50px; */
+  }
+}
+.mainnavbardiv {
+  width: 100%;
+}
+.checkboxdetail {
+  margin-top: 13px !important;
+}
+.checkboxinputrole {
+  margin-top: 13px !important;
+  cursor: pointer;
+}

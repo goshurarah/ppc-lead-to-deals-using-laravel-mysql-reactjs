@@ -1,0 +1,1330 @@
+.main_div_fixed_price {
+  margin-left: 3%;
+  width: 90%;
+}
+.fixed_price_heading {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fp_para_below_heading {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.para_main_div_fp {
+  width: 65%;
+}
+
+.geo_setting_main_div {
+  width: 94%;
+  margin-left: 3%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  padding: 3%;
+  margin-bottom: 5%;
+}
+.heading_geo_setting {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.div_inside_geo_setting {
+  width: 100%;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f5f5f5;
+  margin-left: 0%;
+}
+.fpicon_style {
+  text-align: center;
+  margin-top: 1.5%;
+}
+.div_para_fp {
+  width: 70%;
+}
+.para_geo_setting_fp {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 10px;
+}
+.heading_advance_setting {
+  margin-top: 7%;
+  color: #656565;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+}
+.para_advance_setting {
+  color: #868686;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_div_clear_para {
+  margin-top: 2%;
+}
+.clear_all_para {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.main_div_county_state {
+  margin-top: 3%;
+}
+.show_state_county_filter {
+  width: 100%;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #5869cb;
+  background: #fff;
+  margin-top: 4%;
+}
+.para_inside_filters {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  padding-top: 5% ;
+  margin-left: 2%;
+}
+.image_delete_button_fp {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  margin: 1%;
+  cursor: pointer;
+}
+.edit_button_fp {
+  width: 28px;
+  height: 28px;
+  margin-right: 2%;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.no_of_county_para {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+}
+.show_county_icon_style {
+  width: 48px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f3f3f3;
+  margin-left: 2%;
+}
+.para_inside_show_county {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 3%;
+}
+.backbutton_county{
+  color: #3B50C8;
+text-align: center;
+font-family: "Inter";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  width: 161px;
+height: 60px;
+border-radius: 10px;
+border: 1px solid #3B50C8;
+background: #FFF;
+margin-left: 15px;
+}
+.add_state_button {
+  width: 258px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background: #3b50c8;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 3%;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px 0px #5869cb;
+}
+
+.heading_advance_lead {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  margin-top: 5%;
+}
+.main_div_para_adnave_lead {
+  width: 70%;
+}
+.para_adnave_lead {
+  color: #868686;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  backdrop-filter: blur(.3px); /* Adjust the blur amount as needed */
+  z-index: 1; /* Make sure it's above the modals (adjust if needed) */
+  display: none;
+}
+.div_main_for_scroll_state {
+  height: 200px;
+  width: 450px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.div_main_for_scroll_state::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+.div_main_for_scroll_state::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #d9d9d9;
+  background: #d9d9d9;
+  border-radius: 35px;
+}
+
+.div_main_for_scroll_state::-webkit-scrollbar-thumb {
+  background: #3b50c8;
+  outline: 1px solid #3b50c8;
+  border-radius: 35px;
+}
+.edit_button_hover {
+  display: none;
+}
+
+/* Show the second image when the parent div is hovered */
+.show_state_county_filter:hover .edit_button_hover {
+  display: inline-block; /* or 'block' depending on your layout */
+}
+
+@media only screen and (max-width: 2560px) {
+  .main_div_fixed_price {
+    margin-left: 3%;
+    width: 90%;
+  }
+  .fixed_price_heading {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .fp_para_below_heading {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .para_main_div_fp {
+    width: 65%;
+  }
+  
+  .geo_setting_main_div {
+    width: 94%;
+    margin-left: 3%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    padding: 3%;
+  }
+  .heading_geo_setting {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .div_inside_geo_setting {
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #f5f5f5;
+    margin-left: 0%;
+  }
+  .fpicon_style {
+    text-align: center;
+    margin-top: 1%;
+  }
+  .div_para_fp {
+    width: 70%;
+  }
+  .para_geo_setting_fp {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .heading_advance_setting {
+    margin-top: 7%;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .para_advance_setting {
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .main_div_clear_para {
+    margin-top: 2%;
+  }
+  .clear_all_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .main_div_county_state {
+    margin-top: 3%;
+  }
+  .show_state_county_filter {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    margin-top: 4%;
+  }
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 3%;
+    margin-left: 2%;
+  }
+  .image_delete_button_fp {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 1%;
+    cursor: pointer;
+  }
+  .edit_button_fp {
+    width: 28px;
+    height: 28px;
+    margin-right: 2%;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .no_of_county_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+  }
+  .show_county_icon_style {
+    width: 48px;
+    height: 22px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #f3f3f3;
+    margin-left: 2%;
+  }
+  .para_inside_show_county {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .backbutton_county{
+    color: #3B50C8;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+    width: 161px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #3B50C8;
+  background: #FFF;
+  margin-left: 15px;
+  }
+  .add_state_button {
+    width: 258px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   
+    margin-top: 3%;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+  
+  .heading_advance_lead {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 5%;
+  }
+  .main_div_para_adnave_lead {
+    width: 70%;
+  }
+  .para_adnave_lead {
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    backdrop-filter: blur(.3px); /* Adjust the blur amount as needed */
+    z-index: 1; /* Make sure it's above the modals (adjust if needed) */
+    display: none;
+  }
+  .div_main_for_scroll_state {
+    height: 200px;
+    width: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .div_main_for_scroll_state::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  .div_main_for_scroll_state::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 35px;
+  }
+  
+  .div_main_for_scroll_state::-webkit-scrollbar-thumb {
+    background: #3b50c8;
+    outline: 1px solid #3b50c8;
+    border-radius: 35px;
+  }
+  .edit_button_hover {
+    display: none;
+  }
+  
+  /* Show the second image when the parent div is hovered */
+  .show_state_county_filter:hover .edit_button_hover {
+    display: inline-block; /* or 'block' depending on your layout */
+  }
+
+}
+@media only screen and (max-width: 2219px) {
+  .main_div_fixed_price {
+    margin-left: 3%;
+    width: 90%;
+  }
+  .fixed_price_heading {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .fp_para_below_heading {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .para_main_div_fp {
+    width: 65%;
+  }
+  
+  .geo_setting_main_div {
+    width: 94%;
+    margin-left: 3%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    padding: 3%;
+  }
+  .heading_geo_setting {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .div_inside_geo_setting {
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #f5f5f5;
+    margin-left: 0%;
+  }
+  .fpicon_style {
+    text-align: center;
+    margin-top: 1.5%;
+  }
+  .div_para_fp {
+    width: 70%;
+  }
+  .para_geo_setting_fp {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .heading_advance_setting {
+    margin-top: 7%;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .para_advance_setting {
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .main_div_clear_para {
+    margin-top: 2%;
+  }
+  .clear_all_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .main_div_county_state {
+    margin-top: 3%;
+  }
+  .show_state_county_filter {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    margin-top: 4%;
+  }
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 5% ;
+    margin-left: 2%;
+  }
+  .image_delete_button_fp {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 1%;
+    cursor: pointer;
+  }
+  .edit_button_fp {
+    width: 28px;
+    height: 28px;
+    margin-right: 2%;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .no_of_county_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+  }
+  .show_county_icon_style {
+    width: 48px;
+    height: 22px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #f3f3f3;
+    margin-left: 2%;
+  }
+  .para_inside_show_county {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .backbutton_county{
+    color: #3B50C8;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+    width: 161px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #3B50C8;
+  background: #FFF;
+  margin-left: 15px;
+  }
+  .add_state_button {
+    width: 258px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   
+    margin-top: 3%;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+  
+  .heading_advance_lead {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 5%;
+  }
+  .main_div_para_adnave_lead {
+    width: 70%;
+  }
+  .para_adnave_lead {
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    backdrop-filter: blur(.3px); /* Adjust the blur amount as needed */
+    z-index: 1; /* Make sure it's above the modals (adjust if needed) */
+    display: none;
+  }
+  .div_main_for_scroll_state {
+    height: 200px;
+    width: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .div_main_for_scroll_state::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  .div_main_for_scroll_state::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 35px;
+  }
+  
+  .div_main_for_scroll_state::-webkit-scrollbar-thumb {
+    background: #3b50c8;
+    outline: 1px solid #3b50c8;
+    border-radius: 35px;
+  }
+  .edit_button_hover {
+    display: none;
+  }
+  
+  /* Show the second image when the parent div is hovered */
+  .show_state_county_filter:hover .edit_button_hover {
+    display: inline-block; /* or 'block' depending on your layout */
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 6% ;
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .main_div_fixed_price {
+    margin-left: 3%;
+    width: 90%;
+  }
+  .fixed_price_heading {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .fp_para_below_heading {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .para_main_div_fp {
+    width: 65%;
+  }
+  
+  .geo_setting_main_div {
+    width: 94%;
+    margin-left: 3%;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+    padding: 3%;
+  }
+  .heading_geo_setting {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .div_inside_geo_setting {
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #f5f5f5;
+    margin-left: 0%;
+  }
+  .fpicon_style {
+    text-align: center;
+    margin-top: 1.5%;
+  }
+  .div_para_fp {
+    width: 70%;
+  }
+  .para_geo_setting_fp {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .heading_advance_setting {
+    margin-top: 7%;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+  }
+  .para_advance_setting {
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .main_div_clear_para {
+    margin-top: 2%;
+  }
+  .clear_all_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .main_div_county_state {
+    margin-top: 3%;
+  }
+  .show_state_county_filter {
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #5869cb;
+    background: #fff;
+    margin-top: 4%;
+  }
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 6% ;
+    margin-left: 2%;
+  }
+  .image_delete_button_fp {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    margin: 1%;
+    cursor: pointer;
+  }
+  .edit_button_fp {
+    width: 28px;
+    height: 28px;
+    margin-right: 2%;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .no_of_county_para {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+  }
+  .show_county_icon_style {
+    width: 48px;
+    height: 22px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #f3f3f3;
+    margin-left: 2%;
+  }
+  .para_inside_show_county {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .backbutton_county{
+    color: #3B50C8;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+    width: 161px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #3B50C8;
+  background: #FFF;
+  margin-left: 15px;
+  }
+  .add_state_button {
+    width: 258px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-top: 3%;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+  }
+  
+  .heading_advance_lead {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 5%;
+  }
+  .main_div_para_adnave_lead {
+    width: 70%;
+  }
+  .para_adnave_lead {
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    backdrop-filter: blur(.3px); /* Adjust the blur amount as needed */
+    z-index: 1; /* Make sure it's above the modals (adjust if needed) */
+    display: none;
+  }
+  .div_main_for_scroll_state {
+    height: 200px;
+    width: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .div_main_for_scroll_state::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  .div_main_for_scroll_state::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #d9d9d9;
+    background: #d9d9d9;
+    border-radius: 35px;
+  }
+  
+  .div_main_for_scroll_state::-webkit-scrollbar-thumb {
+    background: #3b50c8;
+    outline: 1px solid #3b50c8;
+    border-radius: 35px;
+  }
+  .edit_button_hover {
+    display: none;
+  }
+  
+  /* Show the second image when the parent div is hovered */
+  .show_state_county_filter:hover .edit_button_hover {
+    display: inline-block; /* or 'block' depending on your layout */
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 6% ;
+    margin-left: 2%;
+  }
+  .fpicon_style {
+    text-align: center;
+    margin-top: 1.5%;
+}
+.fp_para_below_heading {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+}
+@media only screen and (max-width: 1100px) {
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 6% ;
+    margin-left: 2%;
+  }
+  .add_state_button {
+    width: 258px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: #3b50c8;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ 
+    margin-top: 3%;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px 0px #5869cb;
+}
+}
+@media only screen and (max-width: 950px) {
+  .para_geo_setting_fp {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+  }
+  .heading_advance_setting {
+    margin-top: 7%;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+}
+.heading_geo_setting {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.clear_all_para {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.heading_advance_lead {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  margin-top: 5%;
+}
+.para_adnave_lead {
+  color: #868686;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+}
+@media only screen and (max-width: 840px) {
+
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 5% ;
+    margin-left: 2%;
+  }
+
+  .para_geo_setting_fp {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+.clear_all_para {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.para_advance_setting {
+  color: #868686;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.add_state_button {
+  width: 188px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background: #3b50c8;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 3%;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px 0px #5869cb;
+}
+}
+
+@media only screen and (max-width: 530px) {
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 3% ;
+    margin-left: 2%;
+  }
+
+  .para_geo_setting_fp {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+.clear_all_para {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  padding-top: 10px;
+}
+.para_advance_setting {
+  color: #868686;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.para_inside_filters {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  padding-top: 4%;
+  margin-left: 2%;
+}
+.fixed_price_heading {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fp_para_below_heading {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+}
+@media only screen and (max-width: 430px) {
+.div_inside_geo_setting {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f5f5f5;
+  margin-left: 0%;
+}
+.fpicon_style {
+  text-align: center;
+  margin-top: 6.5%;
+}
+.heading_advance_lead {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  margin-top: 5%;
+}
+.para_adnave_lead {
+  color: #868686;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.para_inside_filters {
+  color: #656565;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0;
+  padding-top: 5%;
+  margin-left: 2%;
+}
+
+}
+@media only screen and (max-width: 320px) {
+ 
+  .para_inside_filters {
+    color: #656565;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    padding-top: 7%;
+    margin-left: 2%;
+  }
+
+  }

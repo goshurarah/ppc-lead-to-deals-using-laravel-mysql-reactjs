@@ -1,0 +1,293 @@
+.main_div_footer {
+  width: 100%;
+  height: 210px;
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3;
+  text-align: center;
+}
+.ppc_logo_style {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-left: 0% !important;
+}
+.footer_a_tag {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #5869cb;
+}
+.main_div_footer_homepage{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 2860px) {
+    .main_div_footer {
+        width: 100%;
+        height: 270px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 310px !important;
+        height: 120px !important;
+        margin-left: 0% !important;
+        margin-top: 10px !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+        color: #5869cb;
+      }
+      
+}
+@media only screen and (max-width: 2460px) {
+    .main_div_footer {
+        width: 100%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 250px !important;
+        height: 75px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #5869cb;
+      }
+      
+}
+@media only screen and (max-width: 1440px) {
+    .main_div_footer {
+        width: 100%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 225px !important;
+        height: 75px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #5869cb;
+      }
+      
+}
+
+@media only screen and (max-width: 1024px) {
+    .main_div_footer {
+        width: 100%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 200px !important;
+        height: 75px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #5869cb;
+      }
+      
+}
+@media only screen and (max-width: 768px) {
+    .main_div_footer {
+        width: 100%;
+        height: 370px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .main_div_footer_homepage{
+        display: block; 
+    justify-content: initial;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 200px !important;
+        height: 75px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        color: #5869cb;
+      }
+      
+}
+@media only screen and (max-width: 550px) {
+    .main_div_footer {
+        width: 100%;
+        height: 380px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 200px !important;
+        height: 75px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer_homepage{
+        display: block; /* Change to 'row' or any other appropriate value */
+    justify-content: initial;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+        color: #5869cb;
+      }
+      
+}
+@media only screen and (max-width: 336px) {
+    .main_div_footer {
+        width: 100%;
+        height: 380px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 180px !important;
+        height: 75px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;;
+        line-height: 12px;
+        text-align: left;
+        color: #5869cb;
+      }
+      
+}
+@media only screen and (max-width: 320px) {
+    .main_div_footer {
+        width: 100%;
+        height: 350px;
+        margin: 0;
+        padding: 0;
+        background: #f3f3f3;
+        text-align: center;
+      }
+      .ppc_logo_style {
+        text-align: center;
+        width: 180px !important;
+        height: 70px !important;
+        margin-left: 0% !important;
+      }
+      .main_div_footer a{
+        text-decoration: none;
+      }
+      .main_div_footer a:hover{
+        text-decoration: none;
+      }
+      .footer_a_tag {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: left;
+        color: #5869cb;
+      }
+      
+}

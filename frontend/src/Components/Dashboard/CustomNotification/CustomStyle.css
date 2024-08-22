@@ -1,0 +1,558 @@
+.round-message-container {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 9999;
+}
+
+.round-message {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 42.5rem;
+  height: 7.75rem;
+  border-radius: 0.625rem;
+  background: #d9d9d9;
+  color: #656565;
+  font-family: "Inter";
+  font-size: 1.675rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  opacity: 0;
+  animation: slideIn 3s ease forwards;
+  animation-delay: 1s;
+}
+
+@keyframes slideIn {
+  0% {
+    top: -200px;
+    opacity: 0;
+  }
+  20% {
+    top: 0;
+    opacity: 1;
+  }
+  80% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -200px;
+    opacity: 0;
+  }
+}
+
+.main_mesg_div {
+  overflow: hidden;
+  width: 90%;
+  height: 60px;
+}
+.show_mesg {
+  text-align: start;
+  margin-top: 9% !important;
+  width: 90%;
+  margin-left: 2%;
+  overflow: hidden;
+}
+.round-message-line {
+  position: fixed;
+  top: 0;
+  left: 50%;
+
+  transform: translateX(-50%);
+  width: 5px;
+  height: 80px; /* Adjust the height of the line */
+  background-color: green; /* Adjust the color of the line */
+}
+
+.good_mark_style {
+  margin-left: 25%;
+  margin-top: 13%;
+}
+
+@media only screen and (max-width: 2560px) {
+  .round-message-container {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .round-message {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 42.5rem;
+    height: 7.75rem;
+    border-radius: 0.625rem;
+    background: #d9d9d9;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 1.675rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideIn 3s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    80% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -200px;
+      opacity: 0;
+    }
+  }
+
+  .main_mesg_div {
+  }
+  .show_mesg {
+    text-align: start;
+    margin-top: 9% !important;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .round-message-line {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 5px;
+    height: 80px; /* Adjust the height of the line */
+    background-color: green; /* Adjust the color of the line */
+  }
+
+  .good_mark_style {
+    margin-left: 25%;
+    margin-top: 24%;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1990px) {
+  .round-message-container {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .round-message {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35.5rem;
+    height: 5.55rem;
+    border-radius: 0.625rem;
+    background: #d9d9d9;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 1.275rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideIn 3s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    80% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -200px;
+      opacity: 0;
+    }
+  }
+
+  .main_mesg_div {
+  }
+  .show_mesg {
+    text-align: start;
+    margin-top: 7% !important;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .round-message-line {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 5px;
+    height: 80px; /* Adjust the height of the line */
+    background-color: green; /* Adjust the color of the line */
+  }
+
+  .good_mark_style {
+    margin-left: 25%;
+    margin-top: 17%;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .round-message-container {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .round-message {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32.5rem;
+    height: 5.75rem;
+    border-radius: 0.625rem;
+    background: #d9d9d9;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideIn 3s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    80% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -200px;
+      opacity: 0;
+    }
+  }
+
+  .main_mesg_div {
+  }
+  .show_mesg {
+    text-align: start;
+    margin-top: 9% !important;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .round-message-line {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 5px;
+    height: 80px; /* Adjust the height of the line */
+    background-color: green; /* Adjust the color of the line */
+  }
+
+  .good_mark_style {
+    margin-left: 25%;
+    margin-top: 13%;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .round-message-container {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .round-message {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32.5rem;
+    height: 5.75rem;
+    border-radius: 0.625rem;
+    background: #d9d9d9;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 1.275rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideIn 3s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    80% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -200px;
+      opacity: 0;
+    }
+  }
+
+  .main_mesg_div {
+  }
+  .show_mesg {
+    text-align: start;
+    margin-top: 8% !important;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .round-message-line {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 5px;
+    height: 80px; /* Adjust the height of the line */
+    background-color: green; /* Adjust the color of the line */
+  }
+
+  .good_mark_style {
+    margin-left: 25%;
+    margin-top: 16%;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .round-message-container {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .round-message {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32.5rem;
+    height: 5.75rem;
+    border-radius: 0.625rem;
+    background: #d9d9d9;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 1.275rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideIn 3s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    80% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -200px;
+      opacity: 0;
+    }
+  }
+
+  .main_mesg_div {
+  }
+  .show_mesg {
+    text-align: start;
+    margin-top: 8% !important;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .round-message-line {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 5px;
+    height: 80px; /* Adjust the height of the line */
+    background-color: green; /* Adjust the color of the line */
+  }
+
+  .good_mark_style {
+    margin-left: 25%;
+    margin-top: 16%;
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .round-message-container {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .round-message {
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18.5rem;
+    height: 3.75rem;
+    border-radius: 0.625rem;
+    background: #d9d9d9;
+    color: #656565;
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    opacity: 0;
+    animation: slideIn 3s ease forwards;
+    animation-delay: 1s;
+  }
+
+  @keyframes slideIn {
+    0% {
+      top: -200px;
+      opacity: 0;
+    }
+    20% {
+      top: 0;
+      opacity: 1;
+    }
+    80% {
+      top: 0;
+      opacity: 1;
+    }
+    100% {
+      top: -200px;
+      opacity: 0;
+    }
+  }
+
+  .main_mesg_div {
+  }
+  .show_mesg {
+    text-align: start;
+    margin-top: 10% !important;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .round-message-line {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+    width: 5px;
+    height: 80px; /* Adjust the height of the line */
+    background-color: green; /* Adjust the color of the line */
+  }
+
+  .good_mark_style {
+    margin-left: 25%;
+    margin-top: 35%;
+    width: 25px;
+    height: 25px;
+  }
+}

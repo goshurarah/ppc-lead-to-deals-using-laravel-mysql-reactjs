@@ -1,0 +1,498 @@
+.main_signin_div {
+  width: 100%;
+}
+.maindesign {
+  position: relative;
+}
+@media only screen and (max-width: 2800px) and (min-width: 1920px) {
+  .third_design_div_signin {
+    position: absolute;
+    height: 50% !important;
+    top:96% !important;
+    left: 50% !important;
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1900px) {
+  .third_design_div_signin {
+    position: absolute;
+    height: 50% !important;
+    top: 96% !important;
+    left: 50% !important;
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 1900px) and (min-width: 1500px) {
+  .third_design_div_signin {
+    position: absolute;
+    height: 300px;
+    top: 57%;
+    left: 42%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 850px) {
+  .third_design_div_signin {
+    position: absolute;
+    height: 200px;
+    top: 70.5%;
+    left: 40%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 850px) and (min-width: 100px) {
+  .third_design_div_signin {
+    display: none;
+  }
+}
+.signin {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #3b50c8;
+}
+.signinpara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1850px) {
+  .signinpara {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .signin {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #3b50c8;
+  }
+  .signinpara {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .signin {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #3b50c8;
+  }
+  .signinpara {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #656565;
+  }
+}
+.inputStyleSignin {
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+  width: 100% !important;
+  height: 50px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+}
+.inputStyleSignin:focus::placeholder {
+  color: transparent;
+}
+@media only screen and (max-width: 1024px) {
+  .inputStyleSignin {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    box-shadow: 3px 3px 0px 0px #5869cb;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .inputStyleSignin {
+    margin-left: 10px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputStyleSignin {
+    background: #ffffff;
+    border: 1px solid #5869cb;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin-left: 0px !important;
+  }
+}
+.freshleadbuttonsignin {
+  background: #3b50c8 !important ;
+  border-radius: 10px !important;
+  border: 1px solid #ffffff !important;
+  box-shadow: 1px 1px 0px 0px #5869cb !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+
+  color: #ffffff !important;
+  width: 100% !important;
+  height: 50px !important;
+}
+.freshleadbuttonsignin:hover {
+  background: #0f2eda !important ;
+}
+@media only screen and (max-width: 1024px) {
+  .freshleadbuttonsignin {
+    height: 45px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .freshleadbuttonsignin {
+    height: 40px !important;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .freshleadbuttonsignin {
+    margin-left: 10px !important;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .freshleadbuttonsignin {
+    /* margin-left: 10px !important; */
+    background: #3b50c8 !important ;
+
+    border-radius: 10px !important;
+    border: 1px solid #ffffff !important;
+    box-shadow: 1px 1px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #ffffff !important;
+    width: 100% !important;
+    height: 50px !important;
+  }
+}
+.freshleadbuttonsignin:hover {
+  background: #3b50c8;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+}
+.forgotpasswordpara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #656565;
+}
+@media only screen and (max-width: 1024px) {
+  .forgotpasswordpara {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .forgotpasswordpara {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .forgotpasswordpara {
+    margin-left: 10px;
+  }
+}
+.orstyle {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+  color: #656565 !important;
+}
+@media only screen and (max-width: 426px) {
+  .orstyle {
+    margin-left: 10px !important;
+  }
+}
+.signinforfreeebutton {
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+
+  color: #3b50c8 !important;
+  width: 100% !important;
+  height: 50px !important;
+}
+.signinforfreeebutton:hover {
+  color: #0026ff !important;
+}
+@media only screen and (max-width: 1024px) {
+  .signinforfreeebutton {
+    height: 45px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .signinforfreeebutton {
+    height: 40px !important;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .signinforfreeebutton {
+    margin-left: 10px !important;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .signinforfreeebutton {
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #3b50c8 !important;
+    width: 100% !important;
+    height: 50px !important;
+  }
+}
+.signinforfreeebutton:hover {
+  color: #3b50c8;
+}
+.googleiconstyle {
+  width: 20px;
+  height: 20px;
+  padding: 0px 0px;
+}
+
+.googlesigninbutton {
+  background: #ffffff !important;
+  border: 1px solid #5869cb !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 0px 0px #5869cb !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-align: center !important;
+
+  color: #3b50c8 !important;
+  width: 100% !important;
+  height: 50px !important;
+  padding-top: 15px !important;
+}
+.googlesigninbutton:hover {
+  color: #0026ff !important;
+}
+@media only screen and (max-width: 1440px) {
+  .googlesigninbutton {
+    height: 45px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .googlesigninbutton {
+    height: 45px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .googlesigninbutton {
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .googlesigninbutton {
+    margin-bottom: 30px;
+    background: #ffffff !important;
+    border: 1px solid #5869cb !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 0px 0px #5869cb !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+
+    color: #3b50c8 !important;
+    width: 100% !important;
+    height: 50px !important;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .googlesigninbutton {
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+}
+.googlesigninbutton:hover {
+  background: #ffffff;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #3b50c8;
+  width: 100%;
+  height: 50px;
+}
+
+.inputpassworddiv {
+  position: relative;
+}
+.eye_login_in {
+  position: absolute;
+  top: 36%;
+  right: 6%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 2560px) {
+  .eye_login_in {
+    right: 2% !important;
+  }
+}
+@media only screen and (max-width: 2260px) {
+  .eye_login_in {
+    right: 3% !important;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .eye_login_in {
+    right: 3% !important;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .eye_login_in {
+    right: 3% !important;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .eye_login_in {
+    right: 1% !important;
+  }
+}
+
+/* Style all input fields */
+/* input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+} */
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+}
+
+
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}

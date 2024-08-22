@@ -1,0 +1,77 @@
+.main_div_contact_us{
+    text-align: center;
+}
+.heading_contact_us{
+    color: #3B50C8;
+text-align: center;
+font-family: "Inter";
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 10%;
+}
+.input_style_fn_contact_us{
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+height: 60px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #5869CB;
+background: #FFF;
+outline: none;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 10px;
+box-shadow: 3px 3px 0px 0px #5869cb !important;
+}
+.input_style_fn_contact_us:focus::placeholder {
+    color: transparent;
+  }
+.input_style_message_contact_us{
+    color: #656565;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+height: 120px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #5869CB;
+background: #FFF;
+outline: none;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+margin-bottom: 10px;
+box-shadow: 3px 3px 0px 0px #5869cb !important;
+}
+.input_style_message_contact_us:focus::placeholder {
+    color: transparent;
+  }
+.submit_button_style_contact{
+    color: #FFF;
+text-align: center;
+font-family: "Inter";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 10px;
+border: 1px solid #5869CB;
+background: #3B50C8;
+width: 170px;
+height: 60px;
+flex-shrink: 0;
+margin-top: 10px;
+margin-bottom: 20%;
+border-color: #FFF;
+box-shadow: 3px 3px 0px 0px #5869cb !important;
+}

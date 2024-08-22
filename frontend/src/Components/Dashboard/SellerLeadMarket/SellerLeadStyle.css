@@ -1,0 +1,381 @@
+.main_div_seller_lead {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.seller_lead_market_heading {
+  margin-top: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 5px;
+  /* identical to box height */
+  color: #656565;
+}
+.market_button {
+  width: 161px;
+  height: 31px;
+  background: #af8e3e;
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  margin-right: 5px !important;
+  color: #ffffff;
+}
+.cash_offer_lead {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 10px;
+  /* identical to box height */
+  border-style: none;
+  border-color: #5869cb !important;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  text-align: center;
+  background: #3b50c8;
+  color: #ffffff;
+  border: 1px solid #3b50c8;
+  border-radius: 10px;
+  width: 170px;
+  height: 44px;
+}
+
+.end_cash_buyer_lead {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+
+  text-align: center;
+  border-style: none;
+  border-color: #5869cb !important;
+  box-shadow: 3px 3px 0px 0px #5869cb;
+  color: #3b50c8;
+  width: 124px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #3b50c8;
+  border-radius: 10px;
+}
+.main_below_navbar {
+  margin-top: 1%;
+  margin-right: 8%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .seller_lead_market_heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #656565;
+  }
+  .market_button {
+    width: 111px;
+    height: 25px;
+    background: #af8e3e;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+
+    color: #ffffff;
+  }
+  .cash_offer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+    background: #3b50c8;
+    color: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    width: 124px;
+    height: 40px;
+  }
+
+  .end_cash_buyer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3b50c8;
+    width: 100px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .main_below_navbar {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .seller_lead_market_heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #656565;
+  }
+  .market_button {
+    width: 111px;
+    height: 25px;
+    background: #af8e3e;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  .cash_offer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    margin-bottom: 5px;
+    text-align: center;
+    background: #3b50c8;
+    color: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    width: 134px;
+    height: 35px;
+  }
+
+  .end_cash_buyer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+    margin-bottom: 5px;
+    text-align: center;
+
+    color: #3b50c8;
+    width: 134px;
+    height: 35px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .main_below_navbar {
+    margin-top: 4%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .seller_lead_market_heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #656565;
+  }
+  .market_button {
+    width: 61px;
+    height: 25px;
+    background: #af8e3e;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 10px;
+
+    color: #ffffff;
+  }
+  .cash_offer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+    background: #3b50c8;
+    color: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    width: 88px;
+    height: 30px;
+  }
+
+  .end_cash_buyer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3b50c8;
+    width: 88px;
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .main_below_navbar {
+    margin-top: 6%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .seller_lead_market_heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 29px;
+    color: #656565;
+  }
+  .market_button {
+    width: 61px;
+    height: 25px;
+    background: #af8e3e;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 10px;
+
+    color: #ffffff;
+  }
+  .cash_offer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+    background: #3b50c8;
+    color: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    width: 88px;
+    height: 30px;
+  }
+
+  .end_cash_buyer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3b50c8;
+    width: 88px;
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .main_below_navbar {
+    margin-top: 17%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .seller_lead_market_heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 29px;
+    color: #656565;
+  }
+  .market_button {
+    width: 51px;
+    height: 30px;
+    background: #af8e3e;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+
+    color: #ffffff;
+  }
+  .cash_offer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+    background: #3b50c8;
+    color: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+    width: 65px;
+    height: 40px;
+  }
+
+  .end_cash_buyer_lead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 10px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #3b50c8;
+    width: 65px;
+    height: 40px;
+    background: #ffffff;
+    border: 1px solid #3b50c8;
+    border-radius: 10px;
+  }
+
+  .main_below_navbar {
+    margin-top: 11%;
+  }
+}

@@ -1,0 +1,489 @@
+.ppc_lead_logo_email_verified {
+  width: 100%;
+  height: 290px;
+  text-align: center;
+}
+.ppc_logo_style_verified {
+  margin-top: 162px;
+}
+.email_para_div_verified {
+  width: 100%;
+  text-align: center;
+}
+.email_para_verified {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #3b50c8;
+}
+
+.main_thumb_div {
+  width: 100%;
+  margin-top: 7%;
+  text-align: center;
+}
+.thumb_div_main_verified {
+  width: 124px;
+  height: 124px;
+  margin-left: 37%;
+  text-align: center;
+  background: #d9d9d9;
+  border-radius: 300px;
+}
+.thumb_picture_style {
+  width: 54px;
+  height: 54px;
+  margin-top: 25%;
+}
+.back_to_website_verified_button {
+  width: 100%;
+  height: 60px;
+  margin-top: 7%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  background: #3b50c8;
+  border: 1px solid #5869cb;
+  border-radius: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 1950px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 290px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 162px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 124px;
+        height: 124px;
+        margin-left: 37% !important;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 54px;
+        height: 54px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
+
+
+@media only screen and (max-width: 2560px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 290px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 162px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 124px;
+        height: 124px;
+        margin-left: 43%;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 54px;
+        height: 54px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 220px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 122px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 104px;
+        height: 104px;
+        margin-left: 37%;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 44px;
+        height: 44px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 220px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 122px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 104px;
+        height: 104px;
+        margin-left: 34%;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 44px;
+        height: 44px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 220px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 122px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 104px;
+        height: 104px;
+        margin-left: 42%;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 44px;
+        height: 44px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 220px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 122px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 104px;
+        height: 104px;
+        margin-left: 35%;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 44px;
+        height: 44px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .ppc_lead_logo_email_verified {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+      }
+      .ppc_logo_style_verified {
+        margin-top: 122px;
+      }
+      .email_para_div_verified {
+        width: 100%;
+        text-align: center;
+      }
+      .email_para_verified {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 41px;
+        text-align: center;
+        color: #3b50c8;
+      }
+      
+      .main_thumb_div {
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;
+      }
+      .thumb_div_main_verified {
+        width: 104px;
+        height: 104px;
+        margin-left: 35%;
+        text-align: center;
+        background: #d9d9d9;
+        border-radius: 300px;
+      }
+      .thumb_picture_style {
+        width: 44px;
+        height: 44px;
+        margin-top: 25%;
+      }
+      .back_to_website_verified_button {
+        width: 100%;
+        height: 60px;
+        margin-top: 7%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        background: #3b50c8;
+        border: 1px solid #5869cb;
+        border-radius: 10px;
+      }
+      
+
+}
